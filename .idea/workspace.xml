@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="12663f2a-3e5f-430c-95d6-f9106028f138" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connexion.css" beforeDir="false" afterPath="$PROJECT_DIR$/Connexion.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -79,12 +80,33 @@
       <workItem from="1581085131556" duration="4000" />
       <workItem from="1581085312371" duration="12000" />
       <workItem from="1581086637109" duration="48786000" />
-      <workItem from="1582637247667" duration="253000" />
+      <workItem from="1582637247667" duration="3543000" />
+      <workItem from="1582894899557" duration="3028000" />
     </task>
+    <task id="LOCAL-00001" summary="FAQ">
+      <created>1582637538306</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582637538306</updated>
+    </task>
+    <task id="LOCAL-00002" summary="supp faq">
+      <created>1582637755542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582637755542</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FAQ" />
+    <MESSAGE value="supp faq" />
+    <option name="LAST_COMMIT_MESSAGE" value="supp faq" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582637274481">
@@ -99,10 +121,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="481" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960@0.0.1500.960" timestamp="1581537757424" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1582637538067">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1582637755389">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582637538067" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582637755389" />
     <state x="531" y="223" key="FileChooserDialogImpl" timestamp="1582636668331">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -119,10 +141,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="253" y="124" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1581072622068" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582637723988">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582637763281">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582637723988" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582637763281" />
     <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1582636533798">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

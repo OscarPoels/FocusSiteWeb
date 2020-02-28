@@ -8,7 +8,7 @@
     src: url('Police/SourceSansPro-Regular.ttf') format("truetype");
 }
 
-*{
+* {
     font-family: SourceSansProRegular, serif;
     margin: 0;
 
@@ -62,7 +62,7 @@ html, body {
     margin-top: 50px;
 }
 
-.MoitierInput{
+.MoitierInput {
     position: relative;
 }
 
@@ -78,23 +78,23 @@ html, body {
     margin-top: 50px;
 }
 
-.Box{
+.Box {
     position: relative;
     width: 400px;
     height: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    top:40px;
+    top: 40px;
 }
 
-#ResterConnecte{
+#ResterConnecte {
     width: 60px;
     height: 20px;
     margin-top: 10px;
 }
 
-input[type=email], input[type=password]{
+input[type=email], input[type=password] {
     border: none;
     font-size: 20px;
     outline: none;
@@ -103,7 +103,7 @@ input[type=email], input[type=password]{
 input[type=checkbox] {
     -webkit-appearance: none;
     -moz-appearance: none;
-    border: 1px solid #43425D ;
+    border: 1px solid #43425D;
     border-radius: 4px;
     height: 20px;
     width: 20px;
@@ -113,8 +113,7 @@ input[type=checkbox] {
 }
 
 
-
-input[type=checkbox]:checked{
+input[type=checkbox]:checked {
     background-image: url("images/Coche.png");
     background-size: 90%;
     background-position: right top;
@@ -122,37 +121,55 @@ input[type=checkbox]:checked{
 }
 
 input[type=checkbox]:not(:checked) + label,
-input[type=checkbox]:checked + label{
+input[type=checkbox]:checked + label {
     position: relative;
     top: -5px;
-    left:20px;
+    left: 20px;
     cursor: pointer;
     color: #43425D;
 }
 
-#MdpOublie{
+#MdpOublie {
     position: relative;
     color: #43425D;
     text-decoration: none;
     left: 30%;
 }
-.Bouton{
+
+#MdpOublie:hover {
+    text-decoration: underline;
+}
+
+.Bouton {
     text-decoration: none;
     position: relative;
     padding: 10px 10%;
     border-radius: 3px;
 }
-#BoutonConnexion{
+
+#BoutonConnexion {
     background-color: #43425D;
     color: white;
 }
-#BoutonInscription{
+
+#BoutonConnexion:hover {
+    padding: 13px 10%;
+}
+
+
+#BoutonInscription {
     background-color: white;
     color: #43425D;
     border: 1px solid #43425D;
-    left:25%;
+    left: 25%;
 }
-#Box2{
+
+#BoutonInscription:hover {
+    padding: 13px 10%;
+}
+
+
+#Box2 {
     position: relative;
     top: 80px;
 }
