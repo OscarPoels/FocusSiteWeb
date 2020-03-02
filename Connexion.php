@@ -27,7 +27,7 @@
     </div>
     <div class="Box" id="Box2">
         <a class="Bouton" id="BoutonConnexion" href="https://tesla.com">Connexion</a>
-        <a class="Bouton" id="BoutonInscription" href="Inscription.html">Inscription</a>
+        <a class="Bouton" id="BoutonInscription" href="Inscription.php">Inscription</a>
         <a href="#"> Oscar est pd</a>
     </div>
 </div>

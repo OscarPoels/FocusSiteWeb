@@ -32,7 +32,7 @@
         </div>
 <!--        <input type="checkbox" id="RestezConnecte" name="RestezConnecte"/>-->
 <!--        <label for="RestezConnecte">Rester connecté</label>-->
-<!--        <a class="Bouton" id="BoutonInscription" href="Inscription.html">Inscription</a>-->
+<!--        <a class="Bouton" id="BoutonInscription" href="Inscription.php">Inscription</a>-->
 </div>
 </body>
 </html>
