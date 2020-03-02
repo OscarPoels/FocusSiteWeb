@@ -35,7 +35,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../FocusSiteWeb" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XTaaya2dm8ne615A8Qq9FaBG0G" />
   <component name="ProjectViewState">
@@ -99,10 +99,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="584" y="397" width="355" height="164" key="Github.CreateGistDialog/0.0.1500.960@0.0.1500.960" timestamp="1582636626519" />
-    <state x="0" y="811" key="NewPhpFileDialog" timestamp="1581324798814">
+    <state x="0" y="811" key="NewPhpFileDialog" timestamp="1583143224970">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="0" y="811" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1581324798814" />
+    <state x="0" y="811" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1583143224970" />
     <state x="253" y="124" key="SettingsEditor" timestamp="1581072622068">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
