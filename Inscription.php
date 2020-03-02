@@ -12,20 +12,20 @@
     <div class="Texte" id="SousTexteInscription"> Remplissez les champs ci-dessous pour compléter votre incription</div>
     <div class="ChampsDeConnexion">
         <div class="Box" id="Box1">
-            <form id="FormPrenom" method="post" action="traitement.php">
-                <p><input type="text" class = "MoitierInput" placeholder="Prénom" size="20"></p>
+            <form id="FormPrenom" method="post" action="TraitementInscription.php">
+                <p><input type="text" name ="prenom" class = "MoitierInput" placeholder="Prénom" size="20"></p>
             </form>
             <div class="PetiteBarre" alt="Barre design"></div>
-            <form id="FormNom" method="post" action="traitement.php">
+            <form id="FormNom" method="post" action="TraitementInscription.php">
                 <p><input type="text" class ="MoitierInput" placeholder="Nom" size="20"></p>
             </form>
             <div class="PetiteBarre" alt="Barre design"></div>
         </div>
-        <form id="Mdp" method="post" action="traitement.php">
+        <form id="Mdp" method="post" action="TraitementInscription.php">
             <p><input type="password" placeholder="Mot de passe" size="40"></p>
         </form>
         <div class="Barre" alt="Barre design"></div>
-        <form class="Email" method="post" action="traitement.php">
+        <form class="Email" method="post" action="TraitementInscription.php">
             <p><input type="email" placeholder="E-mail" size="40"/></p>
         </form>
         <div class="Barre" id="barre3" alt="Barre design"></div>
