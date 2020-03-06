@@ -13,12 +13,12 @@
     <div class="Texte" id="SousTexteConnexion"> Veuillez vous connecter à votre compte</div>
     <div class="ChampsDeConnexion">
         <form class="Email" method="post" action="TraitementConnexion.php">
-            <p><input type="email" name="email" placeholder="E-mail" size="40"/></p>
+            <p><input type="email" name="email" placeholder="E-mail" size="40" onsubmit=" return TraitementConnexion()" required/></p>
         </form>
         <div class="Barre" id="barre1" alt="Barre design"></div>
         <form id="Mdp" method="post" action="TraitementConnexion.php">
-            <p><input pattern="[^ ]" minlength="6" maxlength="24" title="Pas d'espace" type="password"
-                      name="Mdp" placeholder="Mot de passe" size="40"></p>
+            <p><input minlength="6" maxlength="24" title="Pas d'espace" type="password"
+                      name="Mdp" placeholder="Mot de passe" size="40" required></p>
         </form>
         <div class="Barre" id="barre2" alt="Barre design"></div>
     </div>
