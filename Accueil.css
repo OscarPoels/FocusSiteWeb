@@ -1,0 +1,16 @@
+html{
+    overflow-y: scroll;
+}
+
+.fond{
+     position: absolute;
+ }
+.qui_somme_nous{
+    width: 100%;
+    height: 10%;
+}
+
+body{
+    background-color: black;
+}
+

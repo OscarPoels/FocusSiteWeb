@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12663f2a-3e5f-430c-95d6-f9106028f138" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TraitementConnexion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TraitementConnexion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accueil.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accueil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/BarreQSM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/BarreQuiSommesNous.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Fond3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/test2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Inscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/traitement.php" beforeDir="false" afterPath="$PROJECT_DIR$/TraitementInscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Fond.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +40,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XTaaya2dm8ne615A8Qq9FaBG0G" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -53,8 +65,9 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FocusSiteWeb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
@@ -83,26 +96,39 @@
       <workItem from="1581085131556" duration="4000" />
       <workItem from="1581085312371" duration="12000" />
       <workItem from="1581086637109" duration="48786000" />
-      <workItem from="1583143206360" duration="5430000" />
+      <workItem from="1582637247667" duration="3543000" />
+      <workItem from="1582894899557" duration="3028000" />
     </task>
-    <task id="LOCAL-00001" summary="Ajout page traitement php">
-      <created>1583143240339</created>
+    <task id="LOCAL-00001" summary="FAQ">
+      <created>1582637538306</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1583143240339</updated>
+      <updated>1582637538306</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="supp faq">
+      <created>1582637755542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582637755542</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ajout page traitement php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout page traitement php" />
+    <MESSAGE value="FAQ" />
+    <MESSAGE value="supp faq" />
+    <option name="LAST_COMMIT_MESSAGE" value="supp faq" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582637274481">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1582637274481" />
     <state x="471" y="284" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582636690138">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -111,10 +137,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="481" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960@0.0.1500.960" timestamp="1581537757424" />
-    <state x="372" y="76" key="CommitChangelistDialog2" timestamp="1583143239725">
-      <screen x="0" y="0" width="1500" height="960" />
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1582637755389">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="372" y="76" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1583143239725" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582637755389" />
     <state x="531" y="223" key="FileChooserDialogImpl" timestamp="1582636668331">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -123,18 +149,18 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="584" y="397" width="355" height="164" key="Github.CreateGistDialog/0.0.1500.960@0.0.1500.960" timestamp="1582636626519" />
-    <state x="0" y="811" key="NewPhpFileDialog" timestamp="1583145162158">
+    <state x="0" y="811" key="NewPhpFileDialog" timestamp="1581324798814">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="0" y="811" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1583145162158" />
+    <state x="0" y="811" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1581324798814" />
     <state x="253" y="124" key="SettingsEditor" timestamp="1581072622068">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="253" y="124" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1581072622068" />
-    <state x="343" y="214" key="Vcs.Push.Dialog.v2" timestamp="1583143248692">
-      <screen x="0" y="0" width="1500" height="960" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582637763281">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="343" y="214" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1583143248692" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582637763281" />
     <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1582636533798">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -143,9 +169,9 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="408" y="223" key="run.anything.popup/0.0.1500.960@0.0.1500.960" timestamp="1581086903863" />
-    <state x="415" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1583147912208">
+    <state x="414" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1581325985308">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="415" y="220" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1583147912208" />
+    <state x="414" y="219" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1581325985308" />
   </component>
 </project>
