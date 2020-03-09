@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12663f2a-3e5f-430c-95d6-f9106028f138" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TraitementConnexion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TraitementConnexion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TraitementConnexion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Inscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/traitement.php" beforeDir="false" afterPath="$PROJECT_DIR$/TraitementInscription.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +35,16 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XTaaya2dm8ne615A8Qq9FaBG0G" />
@@ -83,7 +86,9 @@
       <workItem from="1581085131556" duration="4000" />
       <workItem from="1581085312371" duration="12000" />
       <workItem from="1581086637109" duration="48786000" />
-      <workItem from="1583143206360" duration="5430000" />
+      <workItem from="1583143206360" duration="5463000" />
+      <workItem from="1583161751213" duration="3198000" />
+      <workItem from="1583507117752" duration="1326000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout page traitement php">
       <created>1583143240339</created>
@@ -92,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583143240339</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Traitement php">
+      <created>1583153932932</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583153932932</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +112,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout page traitement php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout page traitement php" />
+    <MESSAGE value="Traitement php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Traitement php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="471" y="284" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582636690138">
@@ -111,10 +124,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="481" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960@0.0.1500.960" timestamp="1581537757424" />
-    <state x="372" y="76" key="CommitChangelistDialog2" timestamp="1583143239725">
+    <state x="372" y="76" key="CommitChangelistDialog2" timestamp="1583153932289">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="372" y="76" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1583143239725" />
+    <state x="372" y="76" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1583153932289" />
     <state x="531" y="223" key="FileChooserDialogImpl" timestamp="1582636668331">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -131,14 +144,14 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="253" y="124" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1581072622068" />
-    <state x="343" y="214" key="Vcs.Push.Dialog.v2" timestamp="1583143248692">
+    <state x="343" y="214" key="Vcs.Push.Dialog.v2" timestamp="1583153941605">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="214" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1583143248692" />
-    <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1582636533798">
+    <state x="343" y="214" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1583153941605" />
+    <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1583525856270">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1582636533798" />
+    <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1583525856270" />
     <state x="408" y="223" key="run.anything.popup" timestamp="1581086903863">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
