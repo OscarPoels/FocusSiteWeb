@@ -11,28 +11,43 @@
     <div class="Texte" id="Inscription"> Inscription</div>
     <div class="Texte" id="SousTexteInscription"> Remplissez les champs ci-dessous pour compléter votre incription</div>
     <div class="ChampsDeConnexion">
-        <div class="Box" id="Box1">
-            <form id="FormPrenom" method="post" action="TraitementInscription.php">
-                <p><input type="text" name ="prenom" class = "MoitierInput" placeholder="Prénom" size="20"></p>
-            </form>
-            <div class="PetiteBarre" alt="Barre design"></div>
-            <form id="FormNom" method="post" action="TraitementInscription.php">
-                <p><input type="text" class ="MoitierInput" placeholder="Nom" size="20"></p>
-            </form>
-            <div class="PetiteBarre" alt="Barre design"></div>
-        </div>
-        <form id="Mdp" method="post" action="TraitementInscription.php">
-            <p><input type="password" placeholder="Mot de passe" size="40"></p>
+        <form method="post" action="TraitementInscription.php">
+            <div class="Box" id="Box1">
+                <input id="FormPrenom" type="text" name="prenom" class="MoitierInput" placeholder="Prénom" size="14"
+                       required>
+                <label id="FormNom">
+                    <input type="text" class="MoitierInput" placeholder="Nom" size="14" required>
+                </label>
+            </div>
+            <div class="Box" id="Box2">
+                <div class="PetiteBarre" alt="Barre design"></div>
+                <div class="PetiteBarre" alt="Barre design"></div>
+            </div>
+            <div class="Box" id="Box3">
+                <input id="Mdp" type="password" placeholder="Mot de passe" size="34" required>
+            </div>
+            <div class="Box" id="Box4">
+                <div class="Barre" alt="Barre design"></div>
+            </div>
+            <div class="Box" id="Box5">
+                <input id="ConfirmerMdp" type="password" placeholder="Confirmer mot de passe" size="34" required>
+            </div>
+            <div class="Box" id="Box6">
+                <div class="Barre" alt="Barre design"></div>
+            </div>
+            <div class="Box" id="Box7">
+                <input id="E-mail" type="email" placeholder="Email" size="34" required>
+            </div>
+            <div class="Box" id="Box8">
+                <div class="Barre" alt="Barre design"></div>
+            </div>
+            <div class="Box" id="Box9">
+                <input id="CodeTest" type="text" placeholder="Code Test" size="34" required>
+            </div>
+            <div class="Box" id="Box10">
+                <div class="Barre" alt="Barre design"></div>
+            </div>
         </form>
-        <div class="Barre" alt="Barre design"></div>
-        <form class="Email" method="post" action="TraitementInscription.php">
-            <p><input type="email" placeholder="E-mail" size="40"/></p>
-        </form>
-        <div class="Barre" id="barre3" alt="Barre design"></div>
-        </div>
-<!--        <input type="checkbox" id="RestezConnecte" name="RestezConnecte"/>-->
-<!--        <label for="RestezConnecte">Rester connecté</label>-->
-<!--        <a class="Bouton" id="BoutonInscription" href="Inscription.php">Inscription</a>-->
-</div>
+    </div>
 </body>
 </html>

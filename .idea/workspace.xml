@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12663f2a-3e5f-430c-95d6-f9106028f138" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TraitementConnexion.js" afterDir="false" />
+    <list default="true" id="12663f2a-3e5f-430c-95d6-f9106028f138" name="Default Changelist" comment="Changement du formulaire">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connexion.css" beforeDir="false" afterPath="$PROJECT_DIR$/Connexion.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inscription.css" beforeDir="false" afterPath="$PROJECT_DIR$/Inscription.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TraitementConnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/TraitementConnexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Fond.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Fond.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +61,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FocusSiteWeb" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/untitled" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
@@ -89,6 +93,8 @@
       <workItem from="1583143206360" duration="5463000" />
       <workItem from="1583161751213" duration="3198000" />
       <workItem from="1583507117752" duration="1326000" />
+      <workItem from="1583525855937" duration="706000" />
+      <workItem from="1583743579173" duration="16907000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout page traitement php">
       <created>1583143240339</created>
@@ -104,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583153932932</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajout de divers fonctionnalités">
+      <created>1583525939342</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583525939342</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,9 +126,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout page traitement php" />
     <MESSAGE value="Traitement php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Traitement php" />
+    <MESSAGE value="Ajout de divers fonctionnalités" />
+    <MESSAGE value="Changement du formulaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changement du formulaire" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="457" y="72" key="#PHP" timestamp="1583745058002">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="457" y="72" key="#PHP/0.0.1500.960@0.0.1500.960" timestamp="1583745058002" />
     <state x="471" y="284" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582636690138">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -124,14 +143,14 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="481" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960@0.0.1500.960" timestamp="1581537757424" />
-    <state x="372" y="76" key="CommitChangelistDialog2" timestamp="1583153932289">
+    <state x="372" y="76" key="CommitChangelistDialog2" timestamp="1584382013649">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="372" y="76" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1583153932289" />
-    <state x="531" y="223" key="FileChooserDialogImpl" timestamp="1582636668331">
+    <state x="372" y="76" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1584382013649" />
+    <state x="531" y="223" key="FileChooserDialogImpl" timestamp="1583753175296">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="531" y="223" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1582636668331" />
+    <state x="531" y="223" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1583753175296" />
     <state x="584" y="397" width="355" height="164" key="Github.CreateGistDialog" timestamp="1582636626519">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -144,18 +163,18 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="253" y="124" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1581072622068" />
-    <state x="343" y="214" key="Vcs.Push.Dialog.v2" timestamp="1583153941605">
+    <state x="343" y="214" key="Vcs.Push.Dialog.v2" timestamp="1583525962559">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="214" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1583153941605" />
-    <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1583525856270">
+    <state x="343" y="214" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1583525962559" />
+    <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1583743596160">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1583525856270" />
-    <state x="408" y="223" key="run.anything.popup" timestamp="1581086903863">
+    <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1583743596160" />
+    <state x="409" y="224" key="run.anything.popup" timestamp="1583744660284">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="408" y="223" key="run.anything.popup/0.0.1500.960@0.0.1500.960" timestamp="1581086903863" />
+    <state x="409" y="224" key="run.anything.popup/0.0.1500.960@0.0.1500.960" timestamp="1583744660284" />
     <state x="415" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1583147912208">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
