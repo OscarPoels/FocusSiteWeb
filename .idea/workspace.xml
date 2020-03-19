@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12663f2a-3e5f-430c-95d6-f9106028f138" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/Fond.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Connexion2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FAQ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inscription.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Photo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Qui_sommes_nous.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Infinite_measures.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/focus.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Accueil.css" beforeDir="false" afterPath="$PROJECT_DIR$/Accueil.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Accueil.html" beforeDir="false" afterPath="$PROJECT_DIR$/Accueil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Fond3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inscription.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BarreQSM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Fond.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Fond.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/test2.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +106,9 @@
       <workItem from="1581086637109" duration="48786000" />
       <workItem from="1582637247667" duration="3543000" />
       <workItem from="1582894899557" duration="3028000" />
-      <workItem from="1584026979121" duration="2898000" />
+      <workItem from="1584026979121" duration="2975000" />
+      <workItem from="1584197988262" duration="530000" />
+      <workItem from="1584353207007" duration="8377000" />
     </task>
     <task id="LOCAL-00001" summary="FAQ">
       <created>1582637538306</created>
@@ -117,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583744159002</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modif Accueil.css">
+      <created>1584197640884</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584197640884</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,13 +149,18 @@
     <MESSAGE value="FAQ" />
     <MESSAGE value="supp faq" />
     <MESSAGE value="Ajout branche accueil" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout branche accueil" />
+    <MESSAGE value="modif Accueil.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif Accueil.css" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="35" key="#PHP" timestamp="1583946692028">
+    <state x="320" y="115" key="#Inspections" timestamp="1584627427460">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="35" key="#PHP/0.0.1440.900@0.0.1440.900" timestamp="1583946692028" />
+    <state x="320" y="115" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1584627427460" />
+    <state x="385" y="23" width="670" height="829" key="#PHP" timestamp="1584354420050">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="23" width="670" height="829" key="#PHP/0.0.1440.900@0.0.1440.900" timestamp="1584354420050" />
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582637274481">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -143,14 +169,15 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="471" y="284" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1500.960@0.0.1500.960" timestamp="1582636690138" />
-    <state x="481" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581537757424">
-      <screen x="0" y="0" width="1500" height="960" />
-    </state>
-    <state x="481" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960@0.0.1500.960" timestamp="1581537757424" />
-    <state x="344" y="54" key="CommitChangelistDialog2" timestamp="1583744158553">
+    <state x="462" y="214" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584628596672">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="344" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583744158553" />
+    <state x="462" y="214" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1584628596672" />
+    <state x="481" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960@0.0.1500.960" timestamp="1581537757424" />
+    <state x="344" y="54" key="CommitChangelistDialog2" timestamp="1584197640428">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="344" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584197640428" />
     <state x="531" y="223" key="FileChooserDialogImpl" timestamp="1582636668331">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -171,14 +198,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1583851281836" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583744171055">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1584197662316">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583744171055" />
-    <state x="433" y="287" key="com.intellij.ide.util.TipDialog" timestamp="1584027001092">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584197662316" />
+    <state x="433" y="287" key="com.intellij.ide.util.TipDialog" timestamp="1584353210319">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="433" y="287" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1584027001092" />
+    <state x="433" y="287" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1584353210319" />
     <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1582636533798" />
     <state x="408" y="223" key="run.anything.popup" timestamp="1581086903863">
       <screen x="0" y="0" width="1500" height="960" />
