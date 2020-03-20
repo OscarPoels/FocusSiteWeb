@@ -1,9 +1,10 @@
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
     height: 5%;
-    background-color: rgba(38, 38, 38, 0.3);
+    background-color: rgba(38, 38, 38, 5.3);
+    opacity: 0.9;
 }
 
 body {
@@ -23,16 +24,10 @@ scroll-page {
 
 .page1 {
     width: 100%;
-    height: 100%;
+    height: 85%;
     background-image: url('images/Fond.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-}
-
-.page2 {
-    width: 100%;
-    height: 100%;
-    background-color: black;
 }
 
 /* Modifie tous les éléments du menu */
@@ -64,15 +59,20 @@ nav li a {
 }
 
 /* Animation lors du survol des éléments du menu */
-nav li:hover {
-    background-color: rgba(3, 1, 30, 0.64);
+nav li a:hover {
+    color: #43425D;
 }
 
-.logo {
+#connexion {
+    text-decoration: underline;
+}
+
+#drapeau {
     position: absolute;
-    top: 0;
-    width: 10%;
-    height: 5%;
+    top: 1.5%;
+    right: 1%;
+    width: 2%;
+    height: 2%;
 }
 
 .texte1 {
@@ -108,6 +108,30 @@ nav li:hover {
     width: 10px;
     height: 300px;
     background-color: white;
+}
+
+.page2 {
+    width: 100%;
+    height: 85%;
+    background-color: black;
+}
+
+#imagePage2 {
+    width: 100%;
+    height: 13%;
+}
+
+.titre {
+    position: absolute;
+    top: 108%;
+    left: 41%;
+    color: white;
+}
+
+.page3 {
+    width: 100%;
+    height: 85%;
+    background-color: black;
 }
 
 
