@@ -74,8 +74,7 @@ html, body {
 }
 
 #Mdp{
-    position: absolute;
-    top: 400px;
+margin-top: 45px;
 }
 
 .Box {
@@ -148,7 +147,7 @@ input[type=submit]{
 .Bouton {
     text-decoration: none;
     position: relative;
-    padding: 10px 10%;
+    padding: 10px 40px;
     border-radius: 3px;
 }
 

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php session_start() ?>
-<html lang="fr">
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Connexion.css"/>
@@ -13,10 +13,10 @@
     <div class="Texte" id="SousTexteConnexion"> Veuillez vous connecter à votre compte</div>
     <form method="post" action="TraitementConnexion.php">
         <div class="ChampsDeConnexion">
-            <input type="email" name="email" placeholder="E-mail" size="40" required/>
+            <input type="email" name="email" placeholder="E-mail" size="50" required/>
             <div class="Barre" id="barre1" alt="Barre design"></div>
-            <input id="Mdp" minlength="6" maxlength="24" title="Pas d'espace" type="password"
-                      name="Mdp" placeholder="Mot de passe" size="40" required>
+            <input id="Mdp" minlength="6" maxlength="24" title="Pas d'espace" size="50" type="password"
+                   name="Mdp" placeholder="Mot de passe" required>
 
             <div class="Barre" id="barre2" alt="Barre design"></div>
         </div>

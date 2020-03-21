@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12663f2a-3e5f-430c-95d6-f9106028f138" name="Default Changelist" comment="Changement du formulaire">
+    <list default="true" id="12663f2a-3e5f-430c-95d6-f9106028f138" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connexion.css" beforeDir="false" afterPath="$PROJECT_DIR$/Connexion.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connexion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inscription.css" beforeDir="false" afterPath="$PROJECT_DIR$/Inscription.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Inscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TraitementConnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/TraitementConnexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Fond.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Fond.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TraitementConnexion.js" beforeDir="false" afterPath="$PROJECT_DIR$/VerificationMdp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,10 @@
       <workItem from="1583161751213" duration="3198000" />
       <workItem from="1583507117752" duration="1326000" />
       <workItem from="1583525855937" duration="706000" />
-      <workItem from="1583743579173" duration="16907000" />
+      <workItem from="1583743579173" duration="16966000" />
+      <workItem from="1584547913061" duration="40000" />
+      <workItem from="1584718133323" duration="600000" />
+      <workItem from="1584750530982" duration="9386000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout page traitement php">
       <created>1583143240339</created>
@@ -117,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583525939342</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Remasterisation du buton de connexion">
+      <created>1584382021343</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584382021359</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +137,8 @@
     <MESSAGE value="Traitement php" />
     <MESSAGE value="Ajout de divers fonctionnalités" />
     <MESSAGE value="Changement du formulaire" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changement du formulaire" />
+    <MESSAGE value="Remasterisation du buton de connexion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remasterisation du buton de connexion" />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="72" key="#PHP" timestamp="1583745058002">
@@ -143,10 +153,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="481" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960@0.0.1500.960" timestamp="1581537757424" />
-    <state x="372" y="76" key="CommitChangelistDialog2" timestamp="1584382013649">
+    <state x="372" y="76" key="CommitChangelistDialog2" timestamp="1584382020460">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="372" y="76" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1584382013649" />
+    <state x="372" y="76" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1584382020460" />
     <state x="531" y="223" key="FileChooserDialogImpl" timestamp="1583753175296">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -167,17 +177,17 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="343" y="214" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1583525962559" />
-    <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1583743596160">
+    <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1584750531095">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1583743596160" />
+    <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1584750531095" />
     <state x="409" y="224" key="run.anything.popup" timestamp="1583744660284">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="409" y="224" key="run.anything.popup/0.0.1500.960@0.0.1500.960" timestamp="1583744660284" />
-    <state x="415" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1583147912208">
+    <state x="416" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1584757196594">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="415" y="220" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1583147912208" />
+    <state x="416" y="221" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1584757196594" />
   </component>
 </project>
