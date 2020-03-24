@@ -20,9 +20,9 @@
             </a>
             <ul>
                 <li><a href="Test.html">Passer un test</a></li>&emsp;<!--
-        --><li><a href="Qui_sommes_nous.html">Qui sommes nous ?</a></li>&emsp;<!--
+        --><li><a href="#page3">Nos tests</a></li>&emsp;<!--
+        --><li><a href="#page2">Qui sommes nous ?</a></li>&emsp;<!--
         --><li><a href="FAQ.html">FAQ</a></li>&emsp;<!--
-        --><li><a href="Photo.html">Photos</a></li>&emsp;<!--
         --><li><a href="Contact.html">Contact</a></li>&emsp;<!--
         --><li><a id="connexion" href="Connexion2.html">Connexion</a></li>
             </ul>
@@ -37,7 +37,7 @@
 </scroll-page>
 
 
-<scroll-page class="page2">
+<scroll-page class="page2" id="page2">
     <img id="imagePage2" src="images/BarreQuiSommesNous.jpg">
     <h1>
         <div class="titre">QUI SOMMES NOUS ?</div>
@@ -93,8 +93,69 @@
     </div>
 </scroll-page>
 
-<scroll-page class="page3">
+<scroll-page class="page3" id="page3">
     <h1><p class="titre" id="titrePage3">NOS DIFFERENTS TESTS</p></h1>
+
+    <div class="FrequenceCardiaque">
+        <div id="barreTitreTest1"></div>
+        <h3><div class="titreTest" id="titreFreqCardiaque">Mesure de la fréquence cardiaque</div></h3>
+        <img src="images/cardiaque.png" id="imageCardiaque" alt="">
+        <p id="paraCardiaque">La prise en charge de la fréquence cardiaque est une fonctionnalité primordiale.
+            Elle nous permet <br> d’évaluer le taux de stress chez l’individu. <br><br>
+            Cette mesure sera réalisé avec un phototransistor et calculera le flux sanguin de la personne réalisant <br> le test. <br><br>
+            Exemple de cas : mauvaise période pour le conducteur, surplus de responsabilitées au volant et perte <br> totale du contrôle</p>
+        <a class="Bouton" id="boutonCardiaque" href="Connexion2.html">&emsp;&emsp;&emsp;&emsp;&emsp;Faire le test</a>
+    </div>
+
+    <div class="Tonalité">
+        <div id="barreTitreTest2"></div>
+        <h3><div class="titreTest" id="titreTonalite">Mesure de la reconnaissance de tonalité</div></h3>
+        <img src="images/micro.jpg" id="imageTonalite" alt="">
+        <p id="paraTonalite">La mesure de la reconnaissance de tonalité est la deuxième fonctionnalité primordiale. Elle nous <br>
+            permet d’évaluer l’analyse sonore du conducteur face à différents sons. <br><br>
+            Cette mesure est réalisée grâce à un micro qui va analyser le son reproduit par le client une fois <br>
+            celui-ci ayant reçus un son entre x et y Hz dans un casque. <br><br> Exemple de cas : Capacité d'écoute et d'analyse des
+        différents sons rencontrés sur la route <br>(klaxon, sirènes pompiers...)</p>
+        <a class="Bouton" id="boutonTonalite" href="Connexion2.html">&emsp;&emsp;&emsp;&emsp;&emsp;Faire le test</a>
+    </div>
+
+    <div class="Temperature">
+        <div id="barreTitreTest3"></div>
+        <h3><div id="titreTemperature">Mesure de la température superficielle de la peau</div></h3>
+        <img src="images/temperature.jpg" id="imageTemp" alt="">
+        <p id="paraTemp">La prise en charge de la fréquence cardiaque est une fonctionnalité primordiale. Elle nous permet <br> d’évaluer
+            le taux de stress chez l’individu et également d'évoluer la fièvre et fatigue du conducteur <br><br>
+            Cette mesure sera réalisé avec un phototransistor et calculera le flux sanguin de la personne réalisant <br> le test. <br><br>
+            Exemple de cas : mauvaise période pour le conducteur, surplus de responsabilités au volant et perte <br> totale du contrôle </p>
+        <a class="Bouton" id="boutonTemp" href="Connexion2.html">&emsp;&emsp;&emsp;&emsp;&emsp;Faire le test</a>
+    </div>
+
+    <div id="barreTitreTest4"></div>
+    <div id="separateurStimu"></div>
+
+    <div class="Sonore">
+        <h3><div id="titreStimuSonore">Réaction à un stimulus sonore</div></h3>
+        <img src="images/casque.jpg" id="imageSon" alt="">
+        <p id="paraSon">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ce test calcule votre temps de réaction suite à l’envoie d’un son <br>
+            d’une fréquence aléatoire entre 440Hz
+            et 1760Hz dans un casque audio puis suite à l’envoie <br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;d’une succession de son toutes les 1 seconde.<br>
+            &emsp;&emsp;&emsp;Le temps est calculé par l’intermédiaire d’un chronomètre et d’un bouton poussoir <br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; que vous devez pousser des le son reçu. </p>
+        <a class="Bouton" id="boutonSon" href="Connexion2.html">&emsp;&emsp;&emsp;&emsp;&emsp;Faire le test</a>
+    </div>
+
+    <div class="Visuel">
+        <h3><div id="titreStimuVisu">Réaction à un stimulus visuel</div></h3>
+        <img src="images/visu.jpg" id="imageVisu" alt="">
+        <p id="paraVisu">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ce test calcule votre temps de réaction suite à l’allumage d’une LED <br> dans un
+            intervalle de 1 à 10 secondes puis suite à une succession d’allumage de <br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; la LED toutes les 1 seconde. <br> &emsp;&emsp;&emsp;
+            Le temps est calculé par l’intermédiaire d’un chronomètre et d’un bouton poussoir <br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;que vous devez pousser dès la LED allumé. </p>
+        <a class="Bouton" id="boutonVisu" href="Connexion2.html">&emsp;&emsp;&emsp;&emsp;&emsp;Faire le test</a>
+    </div>
+
 
 </scroll-page>
 

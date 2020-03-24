@@ -126,7 +126,7 @@ nav li a:hover {
 
 .titre {
     position: absolute;
-    top: 108%;
+    top: 109%;
     left: 41%;
     color: white;
 }
@@ -310,15 +310,254 @@ nav li a:hover {
 
 .page3 {
     width: 100%;
-    height: 85%;
+    height: 190%;
+
 }
 
 #titrePage3 {
     position: absolute;
     color: white;
     left: 530px;
-    top: 240%;
+    top: 239%;
 }
+
+#barreTitreTest1 {
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    top: 250%;
+    background-color: dimgray;
+    opacity: 0.5;
+}
+
+#titreFreqCardiaque {
+    position: absolute;
+    top: 251%;
+    left: 30px;
+    color: white;
+    text-decoration: underline;
+}
+
+#imageCardiaque {
+    position: absolute;
+    width: 340px;
+    left: 30px;
+    top: 258%;
+}
+
+#paraCardiaque {
+    position: absolute;
+    top: 258%;
+    left: 420px;
+    color: white;
+}
+
+#boutonCardiaque {
+    position: absolute;
+    width: 17%;
+    height: 22px;
+    top: 266%;
+    left: 1150px;
+    color: red;
+    border: 2px solid;
+    text-decoration: none;
+}
+
+#boutonCardiaque:hover {
+    border: 3px solid;
+}
+
+#barreTitreTest2 {
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    top: 285%;
+    background-color: dimgray;
+    opacity: 0.5;
+}
+
+#titreTonalite {
+    position: absolute;
+    top: 286%;
+    left: 30px;
+    color: white;
+    text-decoration: underline;
+}
+
+#imageTonalite {
+    position: absolute;
+    width: 340px;
+    left: 30px;
+    top: 293%;
+    border-radius: 13px;
+}
+
+#paraTonalite {
+    position: absolute;
+    top: 295%;
+    left: 420px;
+    color: white;
+}
+
+#boutonTonalite {
+    position: absolute;
+    width: 17%;
+    height: 22px;
+    top: 303%;
+    left: 1150px;
+    color: red;
+    border: 2px solid;
+    text-decoration: none;
+}
+
+#boutonTonalite:hover {
+    border: 3px solid;
+}
+
+#barreTitreTest3 {
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    top: 325%;
+    background-color: dimgray;
+    opacity: 0.5;
+}
+
+#titreTemperature {
+    position: absolute;
+    top: 326%;
+    left: 30px;
+    color: white;
+    text-decoration: underline;
+}
+
+#imageTemp {
+    position: absolute;
+    width: 320px;
+    height: 210px;
+    left: 30px;
+    top: 333%;
+    border-radius: 13px;
+}
+
+#paraTemp {
+    position: absolute;
+    top: 334%;
+    left: 420px;
+    color: white;
+}
+
+#boutonTemp {
+    position: absolute;
+    width: 17%;
+    height: 22px;
+    top: 342%;
+    left: 1150px;
+    color: red;
+    border: 2px solid;
+    text-decoration: none;
+}
+
+#boutonTemp:hover {
+    border: 3px solid;
+}
+
+#barreTitreTest4 {
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    top: 362%;
+    background-color: dimgray;
+    opacity: 0.5;
+}
+
+#titreStimuSonore {
+    position: absolute;
+    top: 363%;
+    left: 260px;
+    color: white;
+    text-decoration: underline;
+}
+
+#separateurStimu {
+    position: absolute;
+    left: 730px;
+    top: 363%;
+    width: 3px;
+    height: 3%;
+    background-color: white;
+}
+
+#titreStimuVisu {
+    position: absolute;
+    top: 363%;
+    right: 240px;
+    color: white;
+    text-decoration: underline;
+}
+
+#imageSon {
+    position: absolute;
+    width: 320px;
+    left: 220px;
+    top: 370%;
+    border-radius: 13px;
+}
+
+#imageVisu {
+    position: absolute;
+    width: 320px;
+    right: 200px;
+    top: 370%;
+    border-radius: 13px;
+}
+
+#paraSon {
+    position: absolute;
+    top: 396%;
+    left: 90px;
+    color: white;
+}
+
+#paraVisu {
+    position: absolute;
+    top: 396%;
+    right: 90px;
+    color: white;
+}
+
+#boutonSon {
+    position: absolute;
+    width: 17%;
+    height: 22px;
+    top: 412%;
+    left: 255px;
+    color: red;
+    border: 2px solid;
+    text-decoration: none;
+}
+
+#boutonSon:hover {
+    border: 3px solid;
+}
+
+#boutonVisu {
+    position: absolute;
+    width: 17%;
+    height: 22px;
+    top: 412%;
+    right: 220px;
+    color: red;
+    border: 2px solid;
+    text-decoration: none;
+}
+
+#boutonVisu:hover {
+    border: 3px solid;
+}
+
+
+
 
 
 
