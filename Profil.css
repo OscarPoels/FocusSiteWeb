@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.fond {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 7%;
+    background-color: grey;
+}
+
+#titreProfil {
+    position: absolute;
+    top: -10px;
+    left: 40%;
+    color: white;
+}
+
+#deconnexion {
+    position: absolute;
+    right: 7%;
+    color: white;
+    text-decoration: none;
+    border: 3px solid #B5B5B5;
+    border-radius: 20px;
+    background-color: #B5B5B5;
+    opacity: 0.9;
+}
+
+#deconnexion:hover {
+    border: 3.5px solid #B5B5B5;
+}
+
+
