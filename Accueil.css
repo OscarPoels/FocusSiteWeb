@@ -1,13 +1,3 @@
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 5%;
-    background-color: rgba(38, 38, 38, 5.3);
-    opacity: 0.7;
-    z-index: 10; /* Menu par dessus tous les autres éléments */
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -29,50 +19,6 @@ scroll-page {
     background-image: url('images/Fond.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-}
-
-/* Modifie tous les éléments du menu */
-nav ul {
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    top: 0;
-    left: 620px;
-    width: 100%;
-    height: 6%;
-    list-style-type: none;
-}
-
-/* Modifie les éléments du menu */
-nav li {
-    display: inline-block;
-    padding: 0;
-    margin-right: 50px;
-    text-align: center;
-    line-height: 40px;
-}
-
-/* Modifie les liens du menu  */
-nav li a {
-    display: block;
-    text-decoration: none;
-    color: white;
-}
-
-/* Animation lors du survol des éléments du menu */
-nav li a:hover {
-    color: #c7c7c7;
-}
-
-#connexion {
-    text-decoration: underline;
-}
-
-.drapeau {
-    margin-left: 1300px;
-    padding: 0;
-    top: 27%;
-    position: absolute;
 }
 
 .texte1 {
@@ -308,10 +254,6 @@ nav li a:hover {
 }
 
 
-
-
-
-
 .page3 {
     width: 100%;
     height: 155%;
@@ -324,7 +266,6 @@ nav li a:hover {
     left: 530px;
     top: 239%;
 }
-
 
 
 #barreTitreCardiaque {
@@ -413,8 +354,6 @@ nav li a:hover {
 }
 
 
-
-
 #imageCardiaque {
     position: absolute;
     width: 340px;
@@ -456,26 +395,27 @@ nav li a:hover {
 }
 
 
-
-
 #paraCardiaque {
     position: absolute;
     top: 258%;
     left: 420px;
     color: white;
 }
+
 #paraTonalite {
     position: absolute;
     top: 295%;
     left: 420px;
     color: white;
 }
+
 #paraTemp {
     position: absolute;
     top: 334%;
     left: 420px;
     color: white;
 }
+
 #paraSon {
     position: absolute;
     top: 396%;
@@ -489,8 +429,6 @@ nav li a:hover {
     right: 90px;
     color: white;
 }
-
-
 
 
 #boutonCardiaque {
@@ -569,9 +507,6 @@ nav li a:hover {
 }
 
 
-
-
-
 .footer {
     width: 100%;
     height: 10%;
@@ -584,6 +519,7 @@ nav li a:hover {
     top: 428%;
     left: 28%;
 }
+
 #Focus {
     position: absolute;
     width: 90px;

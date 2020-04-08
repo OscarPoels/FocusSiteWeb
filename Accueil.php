@@ -10,9 +10,30 @@
 
 
 <scroll-page class="page1" id="page1">
-    <?php include("Menu.php"); ?>
+    <?php include("MenuHorizontalAccueil.php"); ?>
     <div class="rectangle"></div>
 
+    <?php
+    $texte1 = "";
+    $texte1FR = "<h1> Besoin de tests <br> psycotechniques ?</h1>";
+    $texte1AN = "<h1>You need psycotechnicals <br> measures ?</h1>";
+    $texte1ESP = "<h1>Necessitas<br> blabalbalab</h1>";
+
+    switch ($_GET['langue']){
+        case "anglais":
+            $texte1 = $texte1AN;
+            echo $texte1;
+            break;
+        case "espagnol":
+            $texte1 = $texte1ESP;
+            echo $texte1;
+            break;
+        case "francais":
+            $texte1 = $texte1FR;
+            echo $texte1;
+            break;
+    }
+    ?>
 
     <h1><p class="texte1"> Besoin de tests <br> psycotechniques ? </p></h1>
     <h1><p class="texte2"> Infinite Measures crée FOCUS </p></h1>
