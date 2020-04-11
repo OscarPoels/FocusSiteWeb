@@ -35,7 +35,7 @@
     }
     ?>
 
-    <h1><p class="texte1"> Besoin de tests <br> psycotechniques ? </p></h1>
+    <h1><p class="texte1"> Besoin de tests <br> psychotechniques ? </p></h1>
     <h1><p class="texte2"> Infinite Measures crée FOCUS </p></h1>
     <h3><p class="phraseAccroche">Leader dans la mise en place de <br> mesures psycotechniques dans les auto écoles</p>
     </h3>
