@@ -2,19 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12663f2a-3e5f-430c-95d6-f9106028f138" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Profil2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Profil2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/oeil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/perso.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/son.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inscription.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestBDD.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Accueil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuHorizontalAccueil.css" beforeDir="false" afterPath="$PROJECT_DIR$/MenuHorizontalAccueil.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuHorizontalAccueil.html" beforeDir="false" afterPath="$PROJECT_DIR$/MenuHorizontalAccueil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inscription.css" beforeDir="false" afterPath="$PROJECT_DIR$/Inscription.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuVerticalProfil.css" beforeDir="false" afterPath="$PROJECT_DIR$/MenuVerticalProfil.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuVerticalProfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/MenuVerticalProfil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuVerticalProfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/MenuVerticalProfil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Profil.css" beforeDir="false" afterPath="$PROJECT_DIR$/Profil.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Profil.html" beforeDir="false" afterPath="$PROJECT_DIR$/Profil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/3barres.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Profil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profil2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profil2.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +71,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -108,7 +112,8 @@
       <workItem from="1584353207007" duration="42847000" />
       <workItem from="1585162904950" duration="27987000" />
       <workItem from="1586395599431" duration="2000" />
-      <workItem from="1586436731161" duration="14188000" />
+      <workItem from="1586436731161" duration="14330000" />
+      <workItem from="1586698471357" duration="5991000" />
     </task>
     <task id="LOCAL-00001" summary="FAQ">
       <created>1582637538306</created>
@@ -201,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586369235668</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Menu Vertical Profil">
+      <created>1586641139403</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1586641139403</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,23 +249,27 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="23" width="670" height="829" key="#PHP/0.0.1440.900@0.0.1440.900" timestamp="1586358103464" />
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582637274481">
+    <state x="320" y="115" key="#SQL_Dialects" timestamp="1586792260524">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1582637274481" />
+    <state x="320" y="115" key="#SQL_Dialects/0.0.1440.900@0.0.1440.900" timestamp="1586792260523" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586793363835">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586793363835" />
     <state x="471" y="284" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582636690138">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="471" y="284" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1500.960@0.0.1500.960" timestamp="1582636690138" />
-    <state x="462" y="214" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585833590539">
+    <state x="462" y="214" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586699761517">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="462" y="214" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1585833590539" />
+    <state x="462" y="214" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1586699761517" />
     <state x="481" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960@0.0.1500.960" timestamp="1581537757424" />
-    <state x="344" y="54" key="CommitChangelistDialog2" timestamp="1586369235351">
+    <state x="344" y="54" key="CommitChangelistDialog2" timestamp="1586641139102">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="344" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586369235351" />
+    <state x="344" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586641139102" />
     <state x="531" y="223" key="FileChooserDialogImpl" timestamp="1582636668331">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -262,10 +278,14 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="584" y="397" width="355" height="164" key="Github.CreateGistDialog/0.0.1500.960@0.0.1500.960" timestamp="1582636626519" />
-    <state x="2" y="532" key="NewPhpFileDialog" timestamp="1586363832218">
+    <state width="239" height="457" key="HiddenNamespacesPopup" timestamp="1586792737589">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="2" y="532" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1586363832218" />
+    <state width="239" height="457" key="HiddenNamespacesPopup/0.0.1440.900@0.0.1440.900" timestamp="1586792737589" />
+    <state x="2" y="532" key="NewPhpFileDialog" timestamp="1586790719075">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="2" y="532" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1586790719075" />
     <state x="0" y="811" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1581324798814" />
     <state x="253" y="124" key="SettingsEditor" timestamp="1581072622068">
       <screen x="0" y="0" width="1500" height="960" />
@@ -275,14 +295,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1584976518564" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586369243760">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586641243695">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586369243760" />
-    <state x="433" y="287" key="com.intellij.ide.util.TipDialog" timestamp="1586436731836">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586641243695" />
+    <state x="433" y="287" key="com.intellij.ide.util.TipDialog" timestamp="1586698499532">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="433" y="287" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1586436731836" />
+    <state x="433" y="287" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1586698499532" />
     <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1582636533798" />
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585409585875">
       <screen x="0" y="0" width="1440" height="900" />

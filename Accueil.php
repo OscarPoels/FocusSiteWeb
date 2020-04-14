@@ -13,7 +13,9 @@
     <?php include("MenuHorizontalAccueil.php"); ?>
     <div class="rectangle"></div>
 
+    <!-- Traduction texte -->
     <?php
+    /*
     $texte1 = "";
     $texte1FR = "<h1> Besoin de tests <br> psycotechniques ?</h1>";
     $texte1AN = "<h1>You need psycotechnicals <br> measures ?</h1>";
@@ -33,6 +35,7 @@
             echo $texte1;
             break;
     }
+    */
     ?>
 
     <h1><p class="texte1"> Besoin de tests <br> psychotechniques ? </p></h1>

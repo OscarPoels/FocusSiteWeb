@@ -205,7 +205,7 @@ label #cancelMenu {
     position: absolute;
     width: 14%;
     top: 275px;
-    left: 460px;
+    left: 490px;
     border-radius: 200px;
     z-index: 1000;
 }
@@ -216,7 +216,7 @@ label #cancelMenu {
     width: 23%;
     height: 38%;
     top: 33%;
-    left: 26.5%;
+    left: 29%;
     border-radius: 10px;
     opacity: 0.7;
     z-index: 999;
@@ -227,7 +227,7 @@ label #cancelMenu {
     width: 17%;
     height: 22px;
     top: 635px;
-    left: 440px;
+    left: 470px;
     color: black;
     border: 2px solid;
     text-decoration: none;
@@ -243,7 +243,7 @@ label #cancelMenu {
     height: 450px;
     background: black;
     top: 210px;
-    left: 230px;
+    left: 260px;
     z-index: 200;
 }
 
@@ -267,7 +267,7 @@ label #cancelMenu {
     width: 210px;
     height: 3%;
     top: 200px;
-    left: 834px;
+    left: 864px;
     background-color: dimgray;
     opacity: 0.5;
 }
@@ -275,7 +275,7 @@ label #cancelMenu {
 #titreFreqCardiaque {
     position: absolute;
     top: 201px;
-    left: 860px;
+    left: 890px;
     font-size: 17px;
     color: white;
     text-decoration: underline;
@@ -284,7 +284,7 @@ label #cancelMenu {
 #imageCardiaque {
     position: absolute;
     width: 260px;
-    left: 810px;
+    left: 840px;
     top: 240px;
 }
 
@@ -359,7 +359,7 @@ label #cancelMenu {
     width: 227px;
     height: 3%;
     top: 440px;
-    left: 830px;
+    left: 860px;
     background-color: dimgray;
     opacity: 0.5;
 }
@@ -367,7 +367,7 @@ label #cancelMenu {
 #titreStimu {
     position: absolute;
     top: 441px;
-    left: 845px;
+    left: 875px;
     font-size: 17px;
     color: white;
     text-decoration: underline;
@@ -376,7 +376,7 @@ label #cancelMenu {
 #imageVisu {
     position: absolute;
     width: 120px;
-    left: 810px;
+    left: 840px;
     top: 475px;
     border-radius: 13px;
 }
@@ -384,7 +384,7 @@ label #cancelMenu {
 #imageSon {
     position: absolute;
     width: 140px;
-    left: 928px;
+    left: 958px;
     top: 475px;
     border-radius: 13px;
 }

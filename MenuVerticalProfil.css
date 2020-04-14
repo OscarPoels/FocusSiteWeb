@@ -1,7 +1,3 @@
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +12,11 @@ body {
     height: 100%;
     background: #042331;
     transition: all .5s ease;
+    z-index: 500;
+}
+
+.mesTests {
+    overflow: hidden;
 }
 
 .sidebar header {
@@ -27,7 +28,7 @@ body {
     user-select: none;
 }
 
-.sidebar ul a {
+.sidebar1 a {
     display: block;
     height: 100%;
     width: 100%;
@@ -41,7 +42,60 @@ body {
     transition: .4s;
 }
 
-ul li:hover a {
+.mesTests #btnMesTests {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 15px;
+    color: white;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+
+.mesTests .mesTestsContenu {
+    display: none;
+}
+
+.mesTestsContenu a {
+    display: block;
+    line-height: 35px;
+    font-size: 13px;
+    color: white;
+    padding-left: 50px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+
+/* Afficher le menu déroulant lors du survol de " Mes tests " */
+.mesTests:hover .mesTestsContenu {
+    display: block;
+}
+
+.sidebar2 a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 15px;
+    color: white;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+
+.mesTests #btnMesTests:hover {
+    padding-left: 40px;
+}
+
+.sidebar ul li:hover a {
     padding-left: 40px;
 }
 
@@ -70,7 +124,7 @@ label #btnMenu {
 }
 
 label #cancelMenu {
-    z-index: 1111;
+    z-index: 1000;
     color: white;
     left: -195px;
     top: 17px;
@@ -88,6 +142,7 @@ label #cancelMenu {
     left: 250px;
     opacity: 0;
     pointer-events: none;
+
 }
 
 /* Si on appuit sur cancelMenu alors on coche la checkBock et "conditions" */

@@ -2,23 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Profil Mneu</title>
+    <title>Profil Menu</title>
     <link rel="stylesheet" href="MenuVerticalProfil.css"/>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-<input  type="checkbox" id="check">
+<input type="checkbox" id="check">
 <label for="check">
-    <i class="fas fa-bars" id="btn"></i>
-    <i class="fas fa-times" id="cancel"></i>
+    <i class="fas fa-bars" id="btnMenu"></i>
+    <i class="fas fa-times" id="cancelMenu"></i>
 </label>
 
 <div class="sidebar">
     <header>Profil Menu</header>
     <ul>
-        <li><a href="Accueil.html"><i class="fas fa-qrcode"></i> Accueil</a></li>
-        <li><a href="FAQ.html"><i class="fas fa-link"></i> FAQ</a></li>
-        <li><a href="Test.html"><i class="fas fa-calendar-week"></i> Passer un test</a></li>
+        <div class="sidebar1">
+            <li><a href="Accueil.php"><i class="fas fa-home"></i> Accueil</a></li>
+            <li><a href="Test.html"><i class="fas fa-user-md"></i> Passer un test</a></li>
+            <li><a href="#"><i class="far fa-chart-bar"></i> Total des résultats</a></li>
+        </div>
+
+        <div class="mesTests">
+            <li><a href="#" id="btnMesTests"><i class="fas fa-folder"></i> Mes tests</a></li>
+            <div class="mesTestsContenu">
+                <li><a href="Test.html"><i class="fas fa-heartbeat"></i> Fréquence Cardiaque</a></li>
+                <li><a href="#"><i class="fas fa-microphone"></i> Reconnaissance de tonalité</a></li>
+                <li><a href="Test.html"><i class="fas fa-thermometer"></i> Température de la peau</a></li>
+                <li><a href="#"><i class="fas fa-eye"></i> Stimulus Visuel</a></li>
+                <li><a href="#"><i class="fas fa-headphones"></i> Stimulus Sonore</a></li>
+            </div>
+        </div>
+
+        <div class="sidebar2">
+            <li><a href="FAQ.html"><i class="fas fa-question"></i> FAQ</a></li>
+            <li><a href="#"><i class="far fa-envelope"></i> Nous contacter</a></li>
+            <li><a href="#"><i class="fas fa-cog"></i> Réglages</a></li>
+        </div>
     </ul>
 </div>
 </body>
