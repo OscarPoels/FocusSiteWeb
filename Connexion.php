@@ -9,27 +9,30 @@
 <body>
 <div class="gauche"><img src="images/PageConnexion.jpg" alt="Photo page de connexion"/></div>
 <div class="droite">
-    <div class="Texte" id="Connexion"> Connexion</div>
-    <div class="Texte" id="SousTexteConnexion"> Veuillez vous connecter à votre compte</div>
-    <form method="post" action="TraitementConnexion.php">
+    <div class="Texte" id="GrandTitre"> Connexion</div>
+    <div class="Texte" id="SousTitre"> Veuillez vous connecter à votre compte</div>
+    <form method="post" action="includes/db.co.php">
         <div class="ChampsDeConnexion">
-            <input type="email" name="email" placeholder="E-mail" size="50" required/>
+            <input type="email" name="mail" placeholder="E-mail" size="50" required/>
             <div class="Barre" id="barre1" alt="Barre design"></div>
             <input id="Mdp" minlength="6" maxlength="24" title="Pas d'espace" size="50" type="password"
-                   name="Mdp" placeholder="Mot de passe" required>
+                   name="mdp" placeholder="Mot de passe" required>
 
             <div class="Barre" id="barre2" alt="Barre design"></div>
         </div>
         <div class="Box" id="Box1">
             <input type="checkbox" id="RestezConnecte" name="RestezConnecte"/>
             <label for="RestezConnecte">Rester connecté</label>
-            <a id="MdpOublie" href="https://apple.com">Mot de passe oublié ?</a>
+            <a id="MdpOublie" href="MdpOublie.php">Mot de passe oublié ?</a>
         </div>
         <div class="Box" id="Box2">
-            <input type="submit" class="Bouton" id="BoutonConnexion" value="Connexion">
+            <button type="submit" class="Bouton" id="BoutonConnexion" name="submit">
+                Connexion
+            </button>
             <a class="Bouton" id="BoutonInscription" href="Inscription.php">Inscription</a>
         </div>
     </form>
 </div>
 </body>
 </html>
+
