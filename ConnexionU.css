@@ -11,7 +11,6 @@
 * {
     font-family: SourceSansProRegular, serif;
     margin: 0;
-
 }
 
 img {
@@ -30,6 +29,14 @@ html, body {
     float: left;
 }
 
+#maisonAccueil {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 3%;
+    height: 5%;
+}
+
 .droite {
     width: 50%;
     height: 100%;
@@ -37,16 +44,16 @@ html, body {
 }
 
 
-#Connexion {
+#GrandTitre {
     font-family: SourceSansProBold, sans-serif;
     font-size: 40px;
     color: #43425D;
     letter-spacing: 10px;
-    padding-top: 200px;
+    padding-top: 180px;
     text-align: center;
 }
 
-#SousTexteConnexion {
+#SousTitre {
     font-size: 20px;
     font-weight: normal;
     color: #DCDCDC;
@@ -59,19 +66,19 @@ html, body {
     height: 114px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-}
-
-.MoitierInput {
-    position: relative;
+    margin-top: 100px;
 }
 
 
 .Barre {
+    position: absolute;
     height: 1px;
-    width: 100%;
+    width: 30%;
     background: #c7c7c7;
-    margin-top: 10px;
+}
+
+#barre2 {
+    top: 465px;
 }
 
 #Mdp {
@@ -129,7 +136,12 @@ input[type=checkbox]:checked + label {
     color: #43425D;
 }
 
+button[type=submit] {
+    cursor: pointer;
+}
+
 #MdpOublie {
+    top: -5px;
     position: relative;
     color: #43425D;
     text-decoration: none;
@@ -143,19 +155,15 @@ input[type=checkbox]:checked + label {
 .Bouton {
     text-decoration: none;
     position: relative;
-    padding: 10px 10%;
+    padding: 10px 40px;
     border-radius: 3px;
 }
 
 #BoutonConnexion {
     background-color: #43425D;
     color: white;
+    border: 3px solid #43425D;
 }
-
-#BoutonConnexion:hover {
-    padding: 13px 10%;
-}
-
 
 #BoutonInscription {
     background-color: white;
@@ -164,12 +172,36 @@ input[type=checkbox]:checked + label {
     left: 25%;
 }
 
-#BoutonInscription:hover {
-    padding: 13px 10%;
-}
-
-
 #Box2 {
     position: relative;
     top: 80px;
 }
+
+/*#success {
+    position: absolute;
+    font-size: 20px;
+    font-weight: normal;
+    color: #c70700;
+    top: 280px;
+    left: 930px;
+}*/
+
+#failed {
+    position: absolute;
+    font-size: 20px;
+    font-weight: normal;
+    color: #c70700;
+    top: 280px;
+    left: 930px;
+}
+
+#end {
+    position: absolute;
+    font-size: 20px;
+    font-weight: normal;
+    color: #03c700;
+    top: 280px;
+    left: 980px;
+}
+
+

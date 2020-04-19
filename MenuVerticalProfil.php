@@ -7,6 +7,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
+
 <input type="checkbox" id="check">
 <label for="check">
     <i class="fas fa-bars" id="btnMenu"></i>
@@ -18,7 +19,7 @@
     <ul>
         <div class="sidebar1">
             <li><a href="Accueil.php"><i class="fas fa-home"></i> Accueil</a></li>
-            <li><a href="Test.html"><i class="fas fa-user-md"></i> Passer un test</a></li>
+            <li><a href="#"><i class="fas fa-user-md"></i> Passer un test</a></li>
             <li><a href="#"><i class="far fa-chart-bar"></i> Total des résultats</a></li>
         </div>
 
@@ -35,7 +36,7 @@
 
         <div class="sidebar2">
             <li><a href="FAQ.html"><i class="fas fa-question"></i> FAQ</a></li>
-            <li><a href="#"><i class="far fa-envelope"></i> Nous contacter</a></li>
+            <li><a href="mailto:infinitemeasures.focus@gmail.com" id="mail"><i class="far fa-envelope"></i> Nous contacter</a></li>
             <li><a href="#"><i class="fas fa-cog"></i> Réglages</a></li>
         </div>
     </ul>

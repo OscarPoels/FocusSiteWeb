@@ -84,6 +84,7 @@ scroll-page {
     height: 550px;
     border-radius: 13px;
     background-color: rgba(38, 38, 38, 5.3);
+    z-index: 1;
 }
 
 #logoFocus {

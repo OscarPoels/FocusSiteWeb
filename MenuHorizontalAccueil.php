@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Menu</title>
-    <link rel="stylesheet" href="MenuHorizontalAccueil.css"/>
+    <link rel="stylesheet" href="MenuHorizontal.css"/>
 </head>
 
 <?php
-    if ($_GET['langue'] == "anglais"){
-        echo "Traduction en anglais svp";
-    }
+if ($_GET['langue'] == "anglais") {
+    echo "Traduction en anglais svp";
+}
 ?>
 
 <body>
@@ -32,12 +32,14 @@
             </div>
         </div>
         <ul>
-            <li><a href="Test.html">Passer un test</a></li>&emsp;<!--
+            <li><a href="testConnexion.php">Passer un test</a></li>&emsp;<!--
         --><li><a href="http://localhost:8888/FocusSiteWeb/Accueil.php#page3">Nos tests</a></li>&emsp;<!--
         --><li><a href="http://localhost:8888/FocusSiteWeb/Accueil.php#page2">Qui sommes nous ?</a></li>&emsp;<!--
         --><li><a href="FAQ.html">FAQ</a></li>&emsp;<!--
-        --><li><a href="Contact.html">Contact</a></li>&emsp;<!--
-        --><li><a id="connexion" href="Connexion.php">Connexion</a></li>
+        --><li><a href="mailto:infinitemeasures.focus@gmail.com">Contact</a></li>&emsp;<!--
+        --><li><a href="testConnexion.php">Mon profil</a></li>&emsp;<!--
+        --><li><a id="connexion" href="testConnexion.php">Connexion</a></li>
+
         </ul>
     </nav>
 </header>

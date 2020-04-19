@@ -30,6 +30,14 @@ html, body {
     float: left;
 }
 
+#maisonAccueil {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 2%;
+    height: 4%;
+}
+
 .droite {
     width: 50%;
     height: 100%;
@@ -37,7 +45,7 @@ html, body {
 }
 
 
-#Inscription {
+#GrandTitre {
     font-family: SourceSansProBold, sans-serif;
     font-size: 40px;
     color: #43425D;
@@ -46,7 +54,7 @@ html, body {
     text-align: center;
 }
 
-#SousTexteInscription {
+#SousTitre {
     font-size: 20px;
     font-weight: normal;
     color: #DCDCDC;
@@ -54,9 +62,25 @@ html, body {
     text-align: center;
 }
 
+#success {
+    font-size: 20px;
+    font-weight: normal;
+    color: #03c700;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#failed {
+    font-size: 20px;
+    font-weight: normal;
+    color: #c70700;
+    padding-top: 20px;
+    text-align: center;
+}
+
 .ChampsDeConnexion {
     position: relative;
-    top: 50px;
+    top: 10px;
     width: 400px;
     height: 325px;
     margin-left: auto;
@@ -90,11 +114,11 @@ html, body {
     display: flex;
 }
 
-#Box1, #Box3, #Box5, #Box7, #Box9 {
+#Box1, #Box3, #Box5, #Box7, #Box9, #Box11 {
     top: 20px;
 }
 
-#Box2, #Box4, #Box6, #Box8, #Box10 {
+#Box2, #Box4, #Box6, #Box8, #Box10, #Box12 {
     position: absolute;
 }
 
@@ -118,6 +142,12 @@ html, body {
     top: 270px;
 }
 
+#Box12 {
+    top: 335px;
+}
+
+
+
 .Box2 {
     position: relative;
     width: 400px;
@@ -127,7 +157,7 @@ html, body {
     top: 40px;
 }
 
-#FormNom, #FormPrenom, #E-mail, #Mdp, #ConfirmerMdp, #CodeTest {
+#FormNom, #FormPrenom, #Email, #Mdp, #Age, #ConfirmerMdp, #CodeTest {
     border: none;
     outline: none;
 }
@@ -165,15 +195,15 @@ input[type=checkbox]:checked + label {
 }
 
 
-#Box11 {
+#Box13 {
     width: 400px;
     height: 35px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 75px;
+    margin-top: 95px;
 }
 
-input[type=submit] {
+button[type=submit] {
     cursor: pointer;
 }
 
@@ -194,7 +224,7 @@ input[type=submit] {
     text-decoration: underline;
 }
 
-#ConditionUtilisation:visited{
+#ConditionUtilisation:visited {
     color: #43425D
 }
 
@@ -208,3 +238,4 @@ input[type=submit] {
     text-decoration: underline;
     color: #43425D;
 }
+
