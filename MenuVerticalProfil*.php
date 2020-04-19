@@ -26,9 +26,9 @@
         <div class="mesTests">
             <li><a href="#" id="btnMesTests"><i class="fas fa-folder"></i> Mes tests</a></li>
             <div class="mesTestsContenu">
-                <li><a href="Test.html"><i class="fas fa-heartbeat"></i> Fréquence Cardiaque</a></li>
+                <li><a href="#"><i class="fas fa-heartbeat"></i> Fréquence Cardiaque</a></li>
                 <li><a href="#"><i class="fas fa-microphone"></i> Reconnaissance de tonalité</a></li>
-                <li><a href="Test.html"><i class="fas fa-thermometer"></i> Température de la peau</a></li>
+                <li><a href="#"><i class="fas fa-thermometer"></i> Température de la peau</a></li>
                 <li><a href="#"><i class="fas fa-eye"></i> Stimulus Visuel</a></li>
                 <li><a href="#"><i class="fas fa-headphones"></i> Stimulus Sonore</a></li>
             </div>

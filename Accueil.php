@@ -194,7 +194,7 @@
         </div>
         <div class="contenu">
             <a href="#page1" id="footerAccueil">Accueil</a>
-            <a href="Mention_Legales.html" id="mention_legales">Mention légales</a>
+            <a href="ConditionsUtilisations.php" id="mention_legales">Mention légales</a>
             <a href="mailto:infinitemeasures.focus@gmail.com" id="mail">&emsp;@ Nous contacter &emsp;</a>
         </div>
     </footer>
