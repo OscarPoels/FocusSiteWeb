@@ -2,7 +2,7 @@
 <html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="ConnexionU.css"/>
+    <link rel="stylesheet" href="Connexion.css"/>
     <title>Connexion</title>
 </head>
 <body>
@@ -23,10 +23,6 @@
             echo "<div id='end'> Vous êtes déconnecté </div> ";
         }
     }
-
-
-
-
     ?>
     <form method="post" action="includes/connexionUtilisateur.php">
         <div class="ChampsDeConnexion">

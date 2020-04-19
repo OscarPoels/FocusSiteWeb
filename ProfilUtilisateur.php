@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Profil</title>
-    <link rel="stylesheet" href="ProfilUtilisateur6.css"/>
+    <link rel="stylesheet" href="ProfilUtilisateur.css"/>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>  <!-- Importer scripte pour les logos -->
 
 </head>
@@ -24,11 +24,11 @@
     <a href="Accueil.php"><img src="images/maison.png" id="maisonAccueil" alt=""></a>
 </div>
 
-<?php include("MenuVerticalProfil*.php"); ?>
+<?php include("MenuVerticalProfil.php"); ?>
 
 <img src="images/perso.jpg" id="photoProfil" alt=""/>
 
-<a class="Bouton" id="boutonModiflProfil" href="modificationProfil.php">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<a class="Bouton" id="boutonModiflProfil" href="modificationProfilUtilisateur.php">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
     &emsp;&emsp;&emsp;&emsp;Modifier mon profil</a>
 
 

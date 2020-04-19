@@ -79,7 +79,7 @@ body {
     z-index: 999;
 }
 
-#boutonEnregistrerModif {
+/*#boutonEnregistrerModif {
     position: absolute;
     width: 19%;
     height: 22px;
@@ -99,7 +99,7 @@ body {
     color: red;
     border: 2px solid;
     text-decoration: none;
-}
+}*/
 
 #boutonEnregistrerModif:hover {
     border: 3px solid;
@@ -221,7 +221,6 @@ body {
 }
 
 
-
 #barreBas {
     position: absolute;
     background: grey;
@@ -230,31 +229,156 @@ body {
     top: 92%;
 }
 
-#barreBas:hover {
-    width: 105%;
+
+
+
+.ChampsDeModification {
+    position: relative;
+    top: 140px;
+    left: 350px;
+    width: 400px;
+    height: 325px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#HistoriqueTests {
+.PetiteBarre {
+    height: 1px;
+    width: 45%;
+    background: #c7c7c7;
+}
+
+#PetiteBarreDroite {
+    margin-left: 5%;
+}
+
+.Barre {
+    margin-top: 70px;
+    height: 1px;
+    width: 95%;
+    background: #c7c7c7;
+}
+
+.Box {
+    position: relative;
+    width: 400px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+#Box1, #Box3, #Box5, #Box7, #Box9 {
+    top: 80px;
+}
+
+#Box2, #Box4, #Box6, #Box8, #Box10 {
     position: absolute;
+}
+
+#Box2 {
+    top: 80px;
+}
+
+#Box4 {
+    top: 75px;
+}
+
+#Box6 {
+    top: 140px;
+}
+
+#Box8 {
+    top: 205px;
+}
+
+#Box10 {
+    top: 270px;
+}
+
+
+.Box2 {
+    position: relative;
+    width: 400px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40px;
+}
+
+
+
+#FormNom, #FormPrenom, #Email, #MdpActuel, #NewMdp, #ConfirmerNewMdpMdp {
+    border: none;
+    outline: none;
+}
+
+#FormNom {
+    margin-left: 22%;
+}
+
+
+#BoutonEnregistrerModif {
+    margin-top: 160px;
+    margin-right: auto;
+    margin-left: 200px;
+    display: flex;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #43425D;
     color: white;
-    top: 95%;
-    left: 45%;
-    font-size: 15px;
-    text-decoration: underline;
+    border: 3px solid #43425D;
+    font-size: 12px;
 }
 
-#HistoriqueTests:hover {
-    font-size: 16px;
-}
-
-#flecheBas1 {
+#BoutonAnnulerModif {
     position: absolute;
-    top: 95.3%;
-    left: 65%;
+    width: 8%;
+    top: 625px;
+    left: 870px;
+    display: flex;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background-color: #43425D;
+    color: white;
+    border: 3px solid #43425D;
+    font-size: 13px;
+
 }
 
-#flecheBas2 {
-    position: absolute;
-    top: 95.3%;
-    left: 37%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
