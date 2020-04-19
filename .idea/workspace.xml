@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12663f2a-3e5f-430c-95d6-f9106028f138" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MdpOublie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/db.co.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/dbh.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connexion.css" beforeDir="false" afterPath="$PROJECT_DIR$/Connexion.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inscription.css" beforeDir="false" afterPath="$PROJECT_DIR$/Inscription.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Inscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TraitementConnexion.css" beforeDir="false" afterPath="$PROJECT_DIR$/MdpOublie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TraitementConnexion.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TraitementInscription.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/db.co.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/db.co.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/dbh.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/db.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +138,7 @@
       <workItem from="1585557431248" duration="710000" />
       <workItem from="1586790072162" duration="727000" />
       <workItem from="1587077589688" duration="6586000" />
-      <workItem from="1587136076108" duration="15751000" />
+      <workItem from="1587136076108" duration="21294000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout page traitement php">
       <created>1583143240339</created>
@@ -196,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584958764298</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ajout fonctionnalité dynamique&#10;connexion : verification mail + MDP &#10;retour si mail ou mdp incorrect&#10;&#10;insription : verificaiton mail pas deja pris&#10;ajout des données dans la bdd">
+      <created>1587154708391</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587154708391</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +238,8 @@
     <MESSAGE value="Remasterisation du buton de connexion" />
     <MESSAGE value="Fin du design de la page d'inscription et de ses fonctionnalités" />
     <MESSAGE value="Peaufinage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Peaufinage" />
+    <MESSAGE value="Ajout fonctionnalité dynamique&#10;connexion : verification mail + MDP &#10;retour si mail ou mdp incorrect&#10;&#10;insription : verificaiton mail pas deja pris&#10;ajout des données dans la bdd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout fonctionnalité dynamique&#10;connexion : verification mail + MDP &#10;retour si mail ou mdp incorrect&#10;&#10;insription : verificaiton mail pas deja pris&#10;ajout des données dans la bdd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="343" y="140" key="#Notifications" timestamp="1587083909419">
@@ -265,10 +266,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="481" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960@0.0.1500.960" timestamp="1587136795934" />
-    <state x="372" y="76" key="CommitChangelistDialog2" timestamp="1584958783589">
+    <state x="372" y="76" key="CommitChangelistDialog2" timestamp="1587154707199">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="372" y="76" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1584958783589" />
+    <state x="372" y="76" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1587154707199" />
     <state x="531" y="223" key="FileChooserDialogImpl" timestamp="1587082829351">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -289,14 +290,14 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="253" y="124" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1581072622068" />
-    <state x="343" y="214" key="Vcs.Push.Dialog.v2" timestamp="1584958879096">
+    <state x="343" y="214" key="Vcs.Push.Dialog.v2" timestamp="1587154732671">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="214" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1584958879096" />
-    <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1587136080401">
+    <state x="343" y="214" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1587154732671" />
+    <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1587315426960">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1587136080401" />
+    <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1587315426960" />
     <state x="411" y="226" key="run.anything.popup" timestamp="1587137909693">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 
 if (isset($_POST['submit'])) {
     $mail = $_POST['mail'];
@@ -18,15 +18,24 @@ if (isset($_POST['submit'])) {
 
     if (!$resultat)
     {
-        echo 'Mauvais identifiant ou mot de passe !';
+        header("Location: ../connexion.php?connexion=failed");
     }
     else
     {
         if ($isPasswordCorrect) {
             echo 'Vous êtes connecté !';
+            $sql = "SELECT numeroUtilisateur FROM utilisateur WHERE Mail ='$mail'";
+
+            $res = $db->prepare($sql);
+            $res->execute();
+            $resultat = $res->fetch();
+            $_SESSION['id']= $resultat['numeroUtilisateur'];
+
+            echo '<form action="../Connexion.php" /><button class="submit" /> Deconnexion </button></form>';
+
         }
         else {
-            echo 'Mauvais identifiant ou mot de passe !';
+            header("Location: ../connexion.php?connexion=failed");
         }
     }
 

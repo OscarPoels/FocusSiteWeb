@@ -34,7 +34,7 @@ session_start();
         }
     }
     ?>
-    <form method="post" action="includes/dbh.inc.php" onsubmit=" return verifyPass(this.Mdp, this.ConfirmerMdp)">
+    <form method="post" action="includes/db.inc.php" onsubmit=" return verifyPass(this.Mdp, this.ConfirmerMdp)">
         <div class="ChampsDeConnexion">
             <div class="Box" id="Box1">
                 <input id="FormPrenom" type="text" class="MoitierInput" placeholder="Prénom" size="21" name="prenom"
@@ -46,13 +46,13 @@ session_start();
                 <div class="PetiteBarre" id="PetiteBarreDroite" alt="Barre design"></div>
             </div>
             <div class="Box" id="Box3">
-                <input id="Mdp" name="mdp" type="password" placeholder="Mot de passe" size="50" required>
+                <input id="Mdp" minlength="6" maxlength="24" name="mdp" type="password" placeholder="Mot de passe" size="50" required>
             </div>
             <div class="Box" id="Box4">
                 <div class="Barre" alt="Barre design"></div>
             </div>
             <div class="Box" id="Box5">
-                <input id="ConfirmerMdp" name="ConfirmerMdp" type="password" placeholder="Confirmer mot de passe"
+                <input id="ConfirmerMdp" minlength="6" maxlength="24" name="ConfirmerMdp" type="password" placeholder="Confirmer mot de passe"
                        size="50" required>
             </div>
             <div class="Box" id="Box6">

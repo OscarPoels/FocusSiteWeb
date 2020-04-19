@@ -6,16 +6,30 @@
     <link rel="stylesheet" href="Connexion.css"/>
     <title>Connexion</title>
 </head>
+
+<?php
+if ($_SESSION['id'] == 0) {
+    header("location: MdpOublie.php");
+}
+?>
+
 <body>
 <div class="gauche"><img src="images/PageConnexion.jpg" alt="Photo page de connexion"/></div>
 <div class="droite">
     <div class="Texte" id="GrandTitre"> Connexion</div>
     <div class="Texte" id="SousTitre"> Veuillez vous connecter à votre compte</div>
+    <?php
+    if (isset($_GET['connexion'])) {
+        if ($_GET['connexion'] == 'failed') {
+            echo "<div id='failed' >E-mail ou mot de passe incorrect </div>";
+        }
+    }
+    ?>
     <form method="post" action="includes/db.co.php">
         <div class="ChampsDeConnexion">
             <input type="email" name="mail" placeholder="E-mail" size="50" required/>
             <div class="Barre" id="barre1" alt="Barre design"></div>
-            <input id="Mdp" minlength="6" maxlength="24" title="Pas d'espace" size="50" type="password"
+            <input id="Mdp" minlength="6" maxlength="24" size="50" type="password"
                    name="mdp" placeholder="Mot de passe" required>
 
             <div class="Barre" id="barre2" alt="Barre design"></div>
@@ -35,4 +49,5 @@
 </div>
 </body>
 </html>
+
 
