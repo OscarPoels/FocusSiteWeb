@@ -11,7 +11,6 @@
 * {
     font-family: SourceSansProRegular, serif;
     margin: 0;
-
 }
 
 img {
@@ -37,7 +36,7 @@ html, body {
 }
 
 
-#Connexion {
+#GrandTitre {
     font-family: SourceSansProBold, sans-serif;
     font-size: 40px;
     color: #43425D;
@@ -46,11 +45,20 @@ html, body {
     text-align: center;
 }
 
-#SousTexteConnexion {
+#SousTitre {
     font-size: 20px;
     font-weight: normal;
     color: #DCDCDC;
     padding-top: 5px;
+    text-align: center;
+}
+
+#failed{
+
+    font-size: 20px;
+    font-weight: normal;
+    color: #c70700;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -62,20 +70,17 @@ html, body {
     margin-top: 50px;
 }
 
-.MoitierInput {
-    position: relative;
-}
-
 
 .Barre {
+    position: absolute;
     height: 1px;
-    width: 100%;
+    width: 30%;
     background: #c7c7c7;
-    margin-top: 10px;
 }
 
-#Mdp {
-    margin-top: 50px;
+
+#Mdp{
+margin-top: 45px;
 }
 
 .Box {
@@ -129,7 +134,12 @@ input[type=checkbox]:checked + label {
     color: #43425D;
 }
 
+button[type=submit]{
+    cursor: pointer;
+}
+
 #MdpOublie {
+    top:-5px;
     position: relative;
     color: #43425D;
     text-decoration: none;
@@ -143,19 +153,15 @@ input[type=checkbox]:checked + label {
 .Bouton {
     text-decoration: none;
     position: relative;
-    padding: 10px 10%;
+    padding: 10px 40px;
     border-radius: 3px;
 }
 
 #BoutonConnexion {
     background-color: #43425D;
     color: white;
+    border: 3px solid #43425D;
 }
-
-#BoutonConnexion:hover {
-    padding: 13px 10%;
-}
-
 
 #BoutonInscription {
     background-color: white;
@@ -163,11 +169,6 @@ input[type=checkbox]:checked + label {
     border: 1px solid #43425D;
     left: 25%;
 }
-
-#BoutonInscription:hover {
-    padding: 13px 10%;
-}
-
 
 #Box2 {
     position: relative;

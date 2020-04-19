@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <?php session_start() ?>
-<html lang="fr">
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Connexion.css"/>
     <title>Connexion</title>
 </head>
+
+<?php
+if ($_SESSION['id'] == 0) {
+    header("location: MdpOublie.php");
+}
+?>
+
 <body>
 <div class="gauche"><img src="images/PageConnexion.jpg" alt="Photo page de connexion"/></div>
 <div class="droite">
-    <div class="Texte" id="Connexion"> Connexion</div>
-    <div class="Texte" id="SousTexteConnexion"> Veuillez vous connecter à votre compte</div>
-    <div class="ChampsDeConnexion">
-        <form class="Email" method="post" action="TraitementConnexion.php">
-            <p><input type="email" name="email" placeholder="E-mail" size="40" onsubmit=" return TraitementConnexion()" required/></p>
-        </form>
-        <div class="Barre" id="barre1" alt="Barre design"></div>
-        <form id="Mdp" method="post" action="TraitementConnexion.php">
-            <p><input minlength="6" maxlength="24" title="Pas d'espace" type="password"
-                      name="Mdp" placeholder="Mot de passe" size="40" required></p>
-        </form>
-        <div class="Barre" id="barre2" alt="Barre design"></div>
-    </div>
-    <div class="Box" id="Box1">
-        <input type="checkbox" id="RestezConnecte" name="RestezConnecte"/>
-        <label for="RestezConnecte">Rester connecté</label>
-        <a id="MdpOublie" href="https://apple.com">Mot de passe oublié ?</a>
-    </div>
-    <div class="Box" id="Box2">
-        <a class="Bouton" id="BoutonConnexion" href="https://tesla.com">Connexion</a>
-        <a class="Bouton" id="BoutonInscription" href="Inscription.php">Inscription</a>
-    </div>
+    <div class="Texte" id="GrandTitre"> Connexion</div>
+    <div class="Texte" id="SousTitre"> Veuillez vous connecter à votre compte</div>
+    <?php
+    if (isset($_GET['connexion'])) {
+        if ($_GET['connexion'] == 'failed') {
+            echo "<div id='failed' >E-mail ou mot de passe incorrect </div>";
+        }
+    }
+    ?>
+    <form method="post" action="includes/db.co.php">
+        <div class="ChampsDeConnexion">
+            <input type="email" name="mail" placeholder="E-mail" size="50" required/>
+            <div class="Barre" id="barre1" alt="Barre design"></div>
+            <input id="Mdp" minlength="6" maxlength="24" size="50" type="password"
+                   name="mdp" placeholder="Mot de passe" required>
+
+            <div class="Barre" id="barre2" alt="Barre design"></div>
+        </div>
+        <div class="Box" id="Box1">
+            <input type="checkbox" id="RestezConnecte" name="RestezConnecte"/>
+            <label for="RestezConnecte">Rester connecté</label>
+            <a id="MdpOublie" href="MdpOublie.php">Mot de passe oublié ?</a>
+        </div>
+        <div class="Box" id="Box2">
+            <button type="submit" class="Bouton" id="BoutonConnexion" name="submit">
+                Connexion
+            </button>
+            <a class="Bouton" id="BoutonInscription" href="Inscription.php">Inscription</a>
+        </div>
+    </form>
 </div>
 </body>
 </html>
+
+

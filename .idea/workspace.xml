@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12663f2a-3e5f-430c-95d6-f9106028f138" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TraitementConnexion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connexion.css" beforeDir="false" afterPath="$PROJECT_DIR$/Connexion.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/Inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/db.co.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/db.co.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/dbh.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/db.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,15 +30,38 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="app_exemple: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="app_exemple: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -47,6 +73,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\wamp\www\FocusWeb\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1XTaaya2dm8ne615A8Qq9FaBG0G" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,22 +87,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FocusSiteWeb" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/untitled" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\opoel\PhpstormProjects\untitled" />
-      <recent name="C:\Users\opoel\PhpstormProjects\untitled\images" />
-      <recent name="C:\Users\opoel\PhpstormProjects\untitled\Police" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\opoel\PhpstormProjects\untitled" />
       <recent name="C:\Users\opoel\PhpstormProjects\untitled\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\FocusWeb\images" />
+      <recent name="C:\Users\opoel\PhpstormProjects\untitled" />
+      <recent name="C:\Users\opoel\PhpstormProjects\untitled\images" />
+      <recent name="C:\Users\opoel\PhpstormProjects\untitled\Police" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -89,6 +125,20 @@
       <workItem from="1583143206360" duration="5463000" />
       <workItem from="1583161751213" duration="3198000" />
       <workItem from="1583507117752" duration="1326000" />
+      <workItem from="1583525855937" duration="706000" />
+      <workItem from="1583743579173" duration="16966000" />
+      <workItem from="1584547913061" duration="40000" />
+      <workItem from="1584718133323" duration="600000" />
+      <workItem from="1584750530982" duration="10011000" />
+      <workItem from="1584958507609" duration="526000" />
+      <workItem from="1585313634541" duration="25000" />
+      <workItem from="1585313872726" duration="54000" />
+      <workItem from="1585332346931" duration="3752000" />
+      <workItem from="1585556271269" duration="51000" />
+      <workItem from="1585557431248" duration="710000" />
+      <workItem from="1586790072162" duration="727000" />
+      <workItem from="1587077589688" duration="6586000" />
+      <workItem from="1587136076108" duration="21294000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout page traitement php">
       <created>1583143240339</created>
@@ -104,61 +154,157 @@
       <option name="project" value="LOCAL" />
       <updated>1583153932932</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajout de divers fonctionnalités">
+      <created>1583525939342</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583525939342</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Remasterisation du buton de connexion">
+      <created>1584382021343</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584382021359</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fin du design de la page d'inscription et de ses fonctionnalités">
+      <created>1584760220666</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584760220666</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fin du design de la page d'inscription et de ses fonctionnalités">
+      <created>1584760360769</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584760360769</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Peaufinage">
+      <created>1584958764298</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584958764298</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ajout fonctionnalité dynamique&#10;connexion : verification mail + MDP &#10;retour si mail ou mdp incorrect&#10;&#10;insription : verificaiton mail pas deja pris&#10;ajout des données dans la bdd">
+      <created>1587154708391</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587154708391</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout page traitement php" />
     <MESSAGE value="Traitement php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Traitement php" />
+    <MESSAGE value="Ajout de divers fonctionnalités" />
+    <MESSAGE value="Changement du formulaire" />
+    <MESSAGE value="Remasterisation du buton de connexion" />
+    <MESSAGE value="Fin du design de la page d'inscription et de ses fonctionnalités" />
+    <MESSAGE value="Peaufinage" />
+    <MESSAGE value="Ajout fonctionnalité dynamique&#10;connexion : verification mail + MDP &#10;retour si mail ou mdp incorrect&#10;&#10;insription : verificaiton mail pas deja pris&#10;ajout des données dans la bdd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout fonctionnalité dynamique&#10;connexion : verification mail + MDP &#10;retour si mail ou mdp incorrect&#10;&#10;insription : verificaiton mail pas deja pris&#10;ajout des données dans la bdd" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="343" y="140" key="#Notifications" timestamp="1587083909419">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="343" y="140" key="#Notifications/0.0.1500.960@0.0.1500.960" timestamp="1587083909419" />
+    <state x="457" y="72" key="#PHP" timestamp="1583745058002">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="457" y="72" key="#PHP/0.0.1500.960@0.0.1500.960" timestamp="1583745058002" />
+    <state x="343" y="140" key="#SQL_Dialects" timestamp="1587137637718">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="343" y="140" key="#SQL_Dialects/0.0.1500.960@0.0.1500.960" timestamp="1587137637718" />
+    <state x="343" y="140" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587083512564">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="343" y="140" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1587083512564" />
     <state x="471" y="284" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582636690138">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="471" y="284" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1500.960@0.0.1500.960" timestamp="1582636690138" />
-    <state x="481" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581537757424">
+    <state x="481" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587136795934">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="481" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960@0.0.1500.960" timestamp="1581537757424" />
-    <state x="372" y="76" key="CommitChangelistDialog2" timestamp="1583153932289">
+    <state x="481" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960@0.0.1500.960" timestamp="1587136795934" />
+    <state x="372" y="76" key="CommitChangelistDialog2" timestamp="1587154707199">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="372" y="76" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1583153932289" />
-    <state x="531" y="223" key="FileChooserDialogImpl" timestamp="1582636668331">
+    <state x="372" y="76" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1587154707199" />
+    <state x="531" y="223" key="FileChooserDialogImpl" timestamp="1587082829351">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="531" y="223" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1582636668331" />
+    <state x="531" y="223" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1587082829351" />
     <state x="584" y="397" width="355" height="164" key="Github.CreateGistDialog" timestamp="1582636626519">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="584" y="397" width="355" height="164" key="Github.CreateGistDialog/0.0.1500.960@0.0.1500.960" timestamp="1582636626519" />
-    <state x="0" y="811" key="NewPhpFileDialog" timestamp="1583145162158">
+    <state x="579" y="296" key="NewPhpClassDialog" timestamp="1587142876015">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="0" y="811" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1583145162158" />
+    <state x="579" y="296" key="NewPhpClassDialog/0.0.1500.960@0.0.1500.960" timestamp="1587142876015" />
+    <state x="0" y="811" key="NewPhpFileDialog" timestamp="1587142883215">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="0" y="811" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1587142883215" />
     <state x="253" y="124" key="SettingsEditor" timestamp="1581072622068">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="253" y="124" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1581072622068" />
-    <state x="343" y="214" key="Vcs.Push.Dialog.v2" timestamp="1583153941605">
+    <state x="343" y="214" key="Vcs.Push.Dialog.v2" timestamp="1587154732671">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="214" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1583153941605" />
-    <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1583525856270">
+    <state x="343" y="214" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1587154732671" />
+    <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1587315426960">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1583525856270" />
-    <state x="408" y="223" key="run.anything.popup" timestamp="1581086903863">
+    <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1587315426960" />
+    <state x="411" y="226" key="run.anything.popup" timestamp="1587137909693">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="408" y="223" key="run.anything.popup/0.0.1500.960@0.0.1500.960" timestamp="1581086903863" />
-    <state x="415" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1583147912208">
+    <state x="411" y="226" key="run.anything.popup/0.0.1500.960@0.0.1500.960" timestamp="1587137909693" />
+    <state x="416" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1584757196594">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="415" y="220" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1583147912208" />
+    <state x="416" y="221" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1584757196594" />
   </component>
 </project>
