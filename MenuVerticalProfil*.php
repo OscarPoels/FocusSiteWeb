@@ -35,7 +35,7 @@
         </div>
 
         <div class="sidebar2">
-            <li><a href="FAQ.html"><i class="fas fa-question"></i> FAQ</a></li>
+            <li><a href="#"><i class="fas fa-question"></i> FAQ</a></li>
             <li><a href="mailto:infinitemeasures.focus@gmail.com" id="mail"><i class="far fa-envelope"></i> Nous contacter</a></li>
             <li><a href="#"><i class="fas fa-cog"></i> Réglages</a></li>
         </div>

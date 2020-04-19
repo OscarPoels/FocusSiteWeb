@@ -23,6 +23,10 @@
             echo "<div id='end'> Vous êtes déconnecté </div> ";
         }
     }
+
+
+
+
     ?>
     <form method="post" action="includes/connexionUtilisateur.php">
         <div class="ChampsDeConnexion">

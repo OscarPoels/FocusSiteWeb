@@ -81,7 +81,7 @@ session_start();
         <div id="Box13">
             <input type="checkbox" id="AccepterCGU" name="AccepterCGU" required/>
             <label for="AccepterCGU">J'accepte les
-                <a id="ConditionUtilisation" href="">conditions d'utilisation</a>
+                <a id="ConditionUtilisation" href="ConditionsUtilisations.php">conditions d'utilisation</a>
             </label>
         </div>
         <button type="submit" id="BoutonInscription" name="submit">

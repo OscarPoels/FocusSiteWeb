@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Profil</title>
-    <link rel="stylesheet" href="ProfilUtilisateur6.css"/>
+    <link rel="stylesheet" href="modifProfil2.css"/>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>  <!-- Importer scripte pour les logos -->
 
 </head>
@@ -15,7 +15,7 @@
 <div class="barreHeader">
     <?php
     if (isset($_SESSION['idUtilisateur']) AND isset($_SESSION['PrenomUtilisateur']) AND isset($_SESSION['NomUtilisateur'])) {
-        echo "<div id='titreProfil'>" . $_SESSION['PrenomUtilisateur'] . " " . $_SESSION['NomUtilisateur'] . "</div>";
+        echo "<div id='titreProfil'>" . $_SESSION['PrenomUtilisateur'] . " " . $_SESSION['NomUtilisateur'] . "- Edition Profil" . "</div>";
     }
     ?>
     <form method="post" action="includes/deconnexionUtilisateur.php">
@@ -24,16 +24,10 @@
     <a href="Accueil.php"><img src="images/maison.png" id="maisonAccueil" alt=""></a>
 </div>
 
-<?php include("MenuVerticalProfil*.php"); ?>
-
-<img src="images/perso.jpg" id="photoProfil" alt=""/>
-
-<a class="Bouton" id="boutonModiflProfil" href="modificationProfil.php">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-    &emsp;&emsp;&emsp;&emsp;Modifier mon profil</a>
-
-
 <div class="infoProfil"></div>
-
+<img src="images/perso.jpg" id="photoProfil" alt=""/>
+<div id="contourPhoto"></div>
+<div id="nomProfil"></div>
 
 <?php
 
@@ -53,44 +47,29 @@ if (isset($_SESSION['idUtilisateur']) AND isset($_SESSION['DateInscription']) AN
 
     echo "<div id='stat4'>" . "Nombre de points :" . "</div>";
     echo "<div id='nbPoints'>" . $_SESSION['NombrePointsUtilisateur'] . "</div>";
-
 }
 ?>
 
 
 
-<?php
-if (isset($_SESSION['idUtilisateur']) AND isset($_SESSION['PrenomUtilisateur'])) {
-    echo "<div id='titreTest'>" . $_SESSION['PrenomUtilisateur'] . ", qu'est ce qu'on fait ajourd'hui ?" . "</div>";
-}
-?>
+<form method="post" action="">
+    <input type="text">
+</form>
 
-<div class="imagesTests">
-    <div id="barreTitreCardiaque"></div>
-    <div class="titreTest" id="titreFreqCardiaque">Fréquence cardiaque</div>
-    <a href="#"><img src="images/cardiaque.png" id="imageCardiaque" alt=""></a>
 
-    <div id="barreTitreTonalite"></div>
-    <div class="titreTest" id="titreTonalite">Reconnaissance de tonalité</div>
-    <a href="#"><img src="images/micro.jpg" id="imageTonalite" alt=""></a>
 
-    <div id="barreTitreTemp"></div>
-    <div id="titreTemperature">Température de la peau</div>
-    <a href="#"><img src="images/temperature.jpg" id="imageTemp" alt=""></a>
 
-    <div id="barreTitreStimulus"></div>
-    <div id="titreStimu">Stimulus visuel // sonore</div>
-    <a href="#"><img src="images/oeil.png" id="imageVisu" alt=""></a>
-    <a href="#"><img src="images/son.png" id="imageSon" alt=""></a>
-</div>
+<a class="Bouton" id="boutonEnregistrerModif" href="#">&emsp;&emsp;&emsp;&emsp;
+    &emsp;&emsp;&emsp;&emsp;Enregistrer les modifications</a>
+<a class="Bouton" id="boutonAnnulerModif" href="ProfilUtilisateur.php">&emsp;&emsp;
+    &emsp;&emsp;&emsp;&emsp;Annuler</a>
 
 <a href="#" id="barreBas"></a>
 <a href="#"><p id="HistoriqueTests">Voir mon historique de tests</p></a>
 <a href="#"><i class="fas fa-angle-down" id="flecheBas1" style="color: white"></i></a>
 <a href="#"><i class="fas fa-angle-down" id="flecheBas2" style="color: white"></i></a>
 
-<div id="contourPhoto"></div>
-<div id="nomProfil"></div>
+
 
 </body>
 </html>
