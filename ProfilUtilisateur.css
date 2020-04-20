@@ -1,0 +1,387 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.barreHeader {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 8.7%;
+    background-color: grey;
+}
+
+
+#titreProfil {
+    position: absolute;
+    color: white;
+    font-size: 45px;
+    top: 10px;
+    left: 38%;
+}
+
+#deconnexion {
+    color: white;
+    position: absolute;
+    top: 30px;
+    right: 5%;
+    text-decoration: none;
+    border: 3px solid #B5B5B5;
+    border-radius: 20px;
+    background-color: #B5B5B5;
+    opacity: 0.9;
+}
+
+#deconnexion:hover {
+    border: 3.5px solid #B5B5B5;
+}
+
+#maisonAccueil {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 2%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#photoProfil {
+    position: absolute;
+    width: 14%;
+    top: 275px;
+    left: 490px;
+    border-radius: 200px;
+    z-index: 1000;
+}
+
+#contourPhoto {
+    position: absolute;
+    background: grey;
+    width: 23%;
+    height: 38%;
+    top: 33%;
+    left: 29%;
+    border-radius: 10px;
+    opacity: 0.7;
+    z-index: 999;
+}
+
+#boutonModiflProfil {
+    position: absolute;
+    width: 17%;
+    height: 22px;
+    top: 635px;
+    left: 470px;
+    color: black;
+    border: 2px solid;
+    text-decoration: none;
+}
+
+#boutonModiflProfil:hover {
+    border: 3px solid;
+}
+
+.infoProfil {
+    position: absolute;
+    width: 160px;
+    height: 430px;
+    background: black;
+    top: 207px;
+    left: 260px;
+    z-index: 200;
+}
+
+#stat1 {
+    position: absolute;
+    color: white;
+    top: 240px;
+    left: 280px;
+    text-decoration: underline;
+    z-index: 201;
+}
+
+#dateInscription {
+    position: absolute;
+    top: 270px;
+    left: 300px;
+    color: #008B8B;
+    z-index: 202;
+}
+
+#barreStat1 {
+    position: absolute;
+    top: 310px;
+    left: 270px;
+    width: 140px;
+    height: 1px;
+    background: grey;
+    opacity: 0.7;
+    z-index: 204;
+}
+
+#stat2 {
+    position: absolute;
+    color: white;
+    top: 330px;
+    left: 320px;
+    text-decoration: underline;
+    z-index: 203;
+}
+
+#age {
+    position: absolute;
+    top: 360px;
+    left: 318px;
+    color: #008B8B;
+    z-index: 204;
+}
+
+#barreStat2 {
+    position: absolute;
+    top: 400px;
+    left: 270px;
+    width: 140px;
+    height: 1px;
+    background: grey;
+    opacity: 0.7;
+    z-index: 204;
+}
+
+#stat3 {
+    position: absolute;
+    color: white;
+    top: 440px;
+    left: 275px;
+    text-decoration: underline;
+    z-index: 203;
+}
+
+#nbTests {
+    position: absolute;
+    top: 470px;
+    left: 335px;
+    color: #008B8B;
+    z-index: 204;
+}
+
+#barreStat3 {
+    position: absolute;
+    top: 510px;
+    left: 270px;
+    width: 140px;
+    height: 1px;
+    background: grey;
+    opacity: 0.7;
+    z-index: 204;
+}
+
+#stat4 {
+    position: absolute;
+    color: white;
+    top: 540px;
+    left: 275px;
+    text-decoration: underline;
+    z-index: 203;
+}
+
+#nbPoints {
+    position: absolute;
+    top: 570px;
+    left: 335px;
+    color: #008B8B;
+    z-index: 204;
+}
+
+#barreTitreCardiaque {
+    position: absolute;
+    width: 210px;
+    height: 3%;
+    top: 200px;
+    left: 864px;
+    background-color: dimgray;
+    opacity: 0.5;
+}
+
+#titreFreqCardiaque {
+    position: absolute;
+    top: 201px;
+    left: 890px;
+    font-size: 17px;
+    color: white;
+    text-decoration: underline;
+}
+
+#imageCardiaque {
+    position: absolute;
+    width: 260px;
+    left: 840px;
+    top: 240px;
+}
+
+#imageCardiaque:hover {
+    width: 262px;
+}
+
+#barreTitreTonalite {
+    position: absolute;
+    width: 230px;
+    height: 3%;
+    top: 200px;
+    left: 1164px;
+    background-color: dimgray;
+    opacity: 0.5;
+}
+
+#titreTonalite {
+    position: absolute;
+    top: 201px;
+    left: 1175px;
+    font-size: 17px;
+    color: white;
+    text-decoration: underline;
+}
+
+#imageTonalite {
+    position: absolute;
+    width: 220px;
+    left: 1170px;
+    top: 240px;
+    border-radius: 13px;
+}
+
+#imageTonalite:hover {
+    width: 222px;
+}
+
+#barreTitreTemp {
+    position: absolute;
+    width: 227px;
+    height: 3%;
+    top: 440px;
+    left: 1164px;
+    background-color: dimgray;
+    opacity: 0.5;
+}
+
+#titreTemperature {
+    position: absolute;
+    top: 441px;
+    left: 1184px;
+    font-size: 17px;
+    color: white;
+    text-decoration: underline;
+}
+
+#imageTemp {
+    position: absolute;
+    width: 208px;
+    left: 1170px;
+    top: 475px;
+    border-radius: 13px;
+}
+
+#imageTemp:hover {
+    width: 210px;
+}
+
+#barreTitreStimulus {
+    position: absolute;
+    width: 227px;
+    height: 3%;
+    top: 440px;
+    left: 860px;
+    background-color: dimgray;
+    opacity: 0.5;
+}
+
+#titreStimu {
+    position: absolute;
+    top: 441px;
+    left: 875px;
+    font-size: 17px;
+    color: white;
+    text-decoration: underline;
+}
+
+#imageVisu {
+    position: absolute;
+    width: 120px;
+    left: 840px;
+    top: 475px;
+    border-radius: 13px;
+}
+
+#imageSon {
+    position: absolute;
+    width: 140px;
+    left: 958px;
+    top: 475px;
+    border-radius: 13px;
+}
+
+#imageVisu:hover {
+    width: 122px;
+}
+
+#imageSon:hover {
+    width: 142px;
+}
+
+#titreTest {
+    position: absolute;
+    color: #042331;
+    top: 120px;
+    right: 70px;
+    font-size: 31px;
+    font-family: serif;
+}
+
+#barreBas {
+    position: absolute;
+    background: grey;
+    width: 100%;
+    height: 8%;
+    top: 92%;
+}
+
+#barreBas:hover {
+    width: 105%;
+}
+
+#HistoriqueTests {
+    position: absolute;
+    color: white;
+    top: 95%;
+    left: 45%;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+#HistoriqueTests:hover {
+    font-size: 16px;
+}
+
+#flecheBas1 {
+    position: absolute;
+    top: 95.3%;
+    left: 65%;
+}
+
+#flecheBas2 {
+    position: absolute;
+    top: 95.3%;
+    left: 37%;
+}
