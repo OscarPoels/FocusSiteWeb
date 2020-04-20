@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Accueil</title>
@@ -117,7 +117,7 @@
             le test. <br><br>
             Exemple de cas : mauvaise période pour le conducteur, surplus de responsabilitées au volant et perte <br>
             totale du contrôle</p>
-        <a class="Bouton" id="boutonCardiaque" href="testConnexion.php">&emsp;&emsp;&emsp;&emsp;&emsp;Faire le test</a>
+        <a class="Bouton" id="boutonCardiaque" href="Connexion.php">&emsp;&emsp;&emsp;&emsp;&emsp;Faire le test</a>
     </div>
 
     <div class="Tonalité">
@@ -133,7 +133,7 @@
             celui-ci ayant reçus un son entre x et y Hz dans un casque. <br><br> Exemple de cas : Capacité d'écoute et
             d'analyse des
             différents sons rencontrés sur la route <br>(klaxon, sirènes pompiers...)</p>
-        <a class="Bouton" id="boutonTonalite" href="testConnexion.php">&emsp;&emsp;&emsp;&emsp;&emsp;Faire le test</a>
+        <a class="Bouton" id="boutonTonalite" href="Connexion.php">&emsp;&emsp;&emsp;&emsp;&emsp;Faire le test</a>
     </div>
 
     <div class="Temperature">
@@ -149,7 +149,7 @@
             le test. <br><br>
             Exemple de cas : mauvaise période pour le conducteur, surplus de responsabilités au volant et perte <br>
             totale du contrôle </p>
-        <a class="Bouton" id="boutonTemp" href="testConnexion.php">&emsp;&emsp;&emsp;&emsp;&emsp;Faire le test</a>
+        <a class="Bouton" id="boutonTemp" href="Connexion.php">&emsp;&emsp;&emsp;&emsp;&emsp;Faire le test</a>
     </div>
 
     <div id="barreTitreStimulus"></div>
@@ -167,7 +167,7 @@
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;d’une succession de son toutes les 1 seconde.<br>
             &emsp;&emsp;&emsp;Le temps est calculé par l’intermédiaire d’un chronomètre et d’un bouton poussoir <br>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; que vous devez pousser des le son reçu. </p>
-        <a class="Bouton" id="boutonSon" href="testConnexion.php">&emsp;&emsp;&emsp;&emsp;&emsp;Faire le test</a>
+        <a class="Bouton" id="boutonSon" href="Connexion.php">&emsp;&emsp;&emsp;&emsp;&emsp;Faire le test</a>
     </div>
 
     <div class="Visuel">
@@ -181,7 +181,7 @@
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; la LED toutes les 1 seconde. <br> &emsp;&emsp;&emsp;
             Le temps est calculé par l’intermédiaire d’un chronomètre et d’un bouton poussoir <br>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;que vous devez pousser dès la LED allumé. </p>
-        <a class="Bouton" id="boutonVisu" href="testConnexion.php">&emsp;&emsp;&emsp;&emsp;&emsp;Faire le test</a>
+        <a class="Bouton" id="boutonVisu" href="Connexion.php">&emsp;&emsp;&emsp;&emsp;&emsp;Faire le test</a>
     </div>
 </scroll-page>
 

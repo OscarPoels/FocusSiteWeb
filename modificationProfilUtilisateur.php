@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -10,12 +10,17 @@
 </head>
 
 <body>
-<?php session_start(); ?>
+<?php
+session_start();
+if (!isset($_SESSION['id'])) {
+    header("location: Connexion.php");
+}
+?>
 
 <div class="barreHeader">
     <?php
-    if (isset($_SESSION['idUtilisateur']) AND isset($_SESSION['PrenomUtilisateur']) AND isset($_SESSION['NomUtilisateur'])) {
-        echo "<div id='titreProfil'>" . $_SESSION['PrenomUtilisateur'] . " " . $_SESSION['NomUtilisateur'] . "- Edition Profil" . "</div>";
+    if (isset($_SESSION['id']) AND isset($_SESSION['prenom']) AND isset($_SESSION['nom'])) {
+        echo "<div id='titreProfil'>" . $_SESSION['prenom'] . " " . $_SESSION['nom'] . "- Edition Profil" . "</div>";
     }
     ?>
     <form method="post" action="includes/deconnexionUtilisateur.php">
@@ -31,7 +36,7 @@
 
 <?php
 
-if (isset($_SESSION['idUtilisateur']) AND isset($_SESSION['DateInscription']) AND isset($_SESSION['NombreTestsUtilisateur']) AND isset($_SESSION['NombrePointsUtilisateur'])) {
+if (isset($_SESSION['id']) AND isset($_SESSION['DateInscription']) AND isset($_SESSION['NombreTestsUtilisateur']) AND isset($_SESSION['NombrePointsUtilisateur'])) {
     echo "<div id='stat1'>" . "Membre depuis :" . "</div>";
     echo "<div id='dateInscription'>" . $_SESSION['DateInscription'] . "</div>";
     echo "<div id='barreStat1'>" . "</div>";
@@ -53,20 +58,22 @@ if (isset($_SESSION['idUtilisateur']) AND isset($_SESSION['DateInscription']) AN
 <?php
 
 
-if (isset($_SESSION['idUtilisateur']) AND isset($_SESSION['PrenomUtilisateur']) AND isset($_SESSION['NomUtilisateur']) AND isset($_SESSION['MailUtilisateur'])) {
-    $prenomUser = $_SESSION['PrenomUtilisateur'];
-    $nomUser = $_SESSION['NomUtilisateur'];
-    $emailUser = $_SESSION['MailUtilisateur'];
+if (isset($_SESSION['id']) AND isset($_SESSION['prenom']) AND isset($_SESSION['nom']) AND isset($_SESSION['mail'])) {
+    $prenom = $_SESSION['prenom'];
+    $nom = $_SESSION['nom'];
+    $email = $_SESSION['mail'];
 }
+
+
 ?>
 
 <form method="post" action="">
     <div class="ChampsDeModification">
         <div class="Box" id="Box1">
-            <input id="FormPrenom" type="text" class="MoitierInput"  placeholder="Prenom" value="<?php echo $prenomUser?>" size="21"
+            <input id="FormPrenom" type="text" class="MoitierInput"  placeholder="Prenom" value="<?php echo $prenom?>" size="21"
                    name="newPrenomUtilisateur"
                    required>
-            <input id="FormNom" type="text" class="MoitierInput" placeholder="Nom" value="<?php echo $nomUser?>" size="21" required
+            <input id="FormNom" type="text" class="MoitierInput" placeholder="Nom" value="<?php echo $nom?>" size="21" required
                    name="newNomUtilisateur">
         </div>
         <div class="Box" id="Box2">
@@ -74,7 +81,7 @@ if (isset($_SESSION['idUtilisateur']) AND isset($_SESSION['PrenomUtilisateur']) 
             <div class="PetiteBarre" id="PetiteBarreDroite" alt="Barre design"></div>
         </div>
         <div class="Box" id="Box3">
-            <input id="Email" type="email" placeholder="Email" value="<?php echo $emailUser?>" size="50" name="emailUtilisateur" required>
+            <input id="Email" type="email" placeholder="Email" value="<?php echo $email?>" size="50" name="emailUtilisateur" required>
         </div>
         <div class="Box" id="Box4">
             <div class="Barre" alt="Barre design"></div>

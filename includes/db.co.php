@@ -9,12 +9,12 @@ if (isset($_POST['submit'])) {
 
     $db = new PDO('mysql:host=localhost;dbname=focus_g6d', 'root', '');
 
-    $sql = "SELECT Mail, Mdp FROM utilisateur WHERE Mail = '$mail'";
+    $sql = "SELECT * FROM utilisateur WHERE mail = '$mail'";
     $res = $db->prepare($sql);
     $res->execute();
     $resultat = $res->fetch();
 
-    $isPasswordCorrect = password_verify($_POST['mdp'], $resultat['Mdp']);
+    $isPasswordCorrect = password_verify($_POST['mdp'], $resultat['mdp']);
 
     if (!$resultat)
     {
@@ -23,16 +23,13 @@ if (isset($_POST['submit'])) {
     else
     {
         if ($isPasswordCorrect) {
-            echo 'Vous êtes connecté !';
-            $sql = "SELECT numeroUtilisateur FROM utilisateur WHERE Mail ='$mail'";
-
-            $res = $db->prepare($sql);
-            $res->execute();
-            $resultat = $res->fetch();
             $_SESSION['id']= $resultat['numeroUtilisateur'];
+            $_SESSION['nom'] = $resultat['nom'];
+            $_SESSION['prenom'] = $resultat['prenom'];
+            $_SESSION['mail'] = $resultat['mail'];
+            $_SESSION['nombreTest'] = $resultat['nombreTest'];
 
-            echo '<form action="../Connexion.php" /><button class="submit" /> Deconnexion </button></form>';
-
+            header('location: ../ProfilUtilisateur.php');
         }
         else {
             header("Location: ../connexion.php?connexion=failed");

@@ -7,9 +7,10 @@
 </head>
 
 <?php
-if ($_GET['langue'] == "anglais") {
-    echo "Traduction en anglais svp";
-}
+//if ($_GET['langue'] == "anglais") {
+//    echo "Traduction en anglais svp";
+//}
+//
 ?>
 
 <body>
@@ -32,13 +33,13 @@ if ($_GET['langue'] == "anglais") {
             </div>
         </div>
         <ul>
-            <li><a href="testConnexion.php">Passer un test</a></li>&emsp;<!--
+            <li><a href="Connexion.php">Passer un test</a></li>&emsp;<!--
         --><li><a href="http://localhost:8888/FocusSiteWeb/Accueil.php#page3">Nos tests</a></li>&emsp;<!--
         --><li><a href="http://localhost:8888/FocusSiteWeb/Accueil.php#page2">Qui sommes nous ?</a></li>&emsp;<!--
         --><li><a href="#">FAQ</a></li>&emsp;<!--
         --><li><a href="mailto:infinitemeasures.focus@gmail.com">Contact</a></li>&emsp;<!--
-        --><li><a href="testConnexion.php">Mon profil</a></li>&emsp;<!--
-        --><li><a id="connexion" href="testConnexion.php">Connexion</a></li>
+        --><li><a href="Connexion.php">Mon profil</a></li>&emsp;<!--
+        --><li><a id="connexion" href="Connexion.php">Connexion</a></li>
 
         </ul>
     </nav>

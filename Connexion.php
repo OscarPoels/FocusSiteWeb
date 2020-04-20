@@ -8,8 +8,8 @@
 </head>
 
 <?php
-if ($_SESSION['id'] == 0) {
-    header("location: MdpOublie.php");
+if (isset($_SESSION['id'])) {
+    header("location: profilutilisateur.php");
 }
 ?>
 
@@ -22,6 +22,9 @@ if ($_SESSION['id'] == 0) {
     if (isset($_GET['connexion'])) {
         if ($_GET['connexion'] == 'failed') {
             echo "<div id='failed' >E-mail ou mot de passe incorrect </div>";
+        } else if ($_GET['connexion'] == 'end') {
+            echo "<div id='end'> Vous êtes déconnecté </div> ";
+
         }
     }
     ?>

@@ -19,12 +19,12 @@
     <ul>
         <div class="sidebar1">
             <li><a href="Accueil.php"><i class="fas fa-home"></i> Accueil</a></li>
-            <li><a href="#"><i class="fas fa-user-md"></i> Passer un test</a></li>
+            <li><a href="PasserUnTest.php"><i class="fas fa-user-md"></i> Passer un test</a></li>
             <li><a href="#"><i class="far fa-chart-bar"></i> Total des résultats</a></li>
         </div>
 
         <div class="mesTests">
-            <li><a href="#" id="btnMesTests"><i class="fas fa-folder"></i> Mes tests</a></li>
+            <li><a href="MesTests.php" id="btnMesTests"><i class="fas fa-folder"></i> Mes tests</a></li>
             <div class="mesTestsContenu">
                 <li><a href="#"><i class="fas fa-heartbeat"></i> Fréquence Cardiaque</a></li>
                 <li><a href="#"><i class="fas fa-microphone"></i> Reconnaissance de tonalité</a></li>

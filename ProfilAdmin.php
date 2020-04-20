@@ -30,5 +30,6 @@ if (isset($_SESSION['idAdministrateur']) AND isset($_SESSION['PrenomAdministrate
     echo "<div id='posteAdmin'>" . "Poste : " . $_SESSION['PosteAdministrateur'] . "</div>";
 }
 ?>
+
 </body>
 </html>

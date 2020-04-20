@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -10,12 +10,17 @@
 </head>
 
 <body>
-<?php session_start(); ?>
+<?php
+session_start();
+if (!isset($_SESSION['id'])) {
+    header("location: Connexion.php");
+}
+?>
 
 <div class="barreHeader">
     <?php
-    if (isset($_SESSION['idUtilisateur']) AND isset($_SESSION['PrenomUtilisateur']) AND isset($_SESSION['NomUtilisateur'])) {
-        echo "<div id='titreProfil'>" . $_SESSION['PrenomUtilisateur'] . " " . $_SESSION['NomUtilisateur'] . "</div>";
+    if (isset($_SESSION['id']) AND isset($_SESSION['prenom']) AND isset($_SESSION['nom'])) {
+        echo "<div id='titreProfil'>" . $_SESSION['prenom'] . " " . $_SESSION['nom'] . "</div>";
     }
     ?>
     <form method="post" action="includes/deconnexionUtilisateur.php">
@@ -37,7 +42,7 @@
 
 <?php
 
-if (isset($_SESSION['idUtilisateur']) AND isset($_SESSION['DateInscription']) AND isset($_SESSION['NombreTestsUtilisateur']) AND isset($_SESSION['NombrePointsUtilisateur'])) {
+if (isset($_SESSION['id']) AND isset($_SESSION['DateInscription']) AND isset($_SESSION['NombreTestsUtilisateur']) AND isset($_SESSION['NombrePointsUtilisateur'])) {
     echo "<div id='stat1'>" . "Membre depuis :" . "</div>";
     echo "<div id='dateInscription'>" . $_SESSION['DateInscription'] . "</div>";
     echo "<div id='barreStat1'>" . "</div>";
@@ -60,8 +65,8 @@ if (isset($_SESSION['idUtilisateur']) AND isset($_SESSION['DateInscription']) AN
 
 
 <?php
-if (isset($_SESSION['idUtilisateur']) AND isset($_SESSION['PrenomUtilisateur'])) {
-    echo "<div id='titreTest'>" . $_SESSION['PrenomUtilisateur'] . ", qu'est ce qu'on fait ajourd'hui ?" . "</div>";
+if (isset($_SESSION['id']) AND isset($_SESSION['prenom'])) {
+    echo "<div id='titreTest'>" . $_SESSION['prenom'] . ", qu'est ce qu'on fait ajourd'hui ?" . "</div>";
 }
 ?>
 
