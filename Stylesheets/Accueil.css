@@ -16,7 +16,7 @@ scroll-page {
 .page1 {
     width: 100%;
     height: 85%;
-    background-image: url('images/Fond.jpg');
+    background-image: url('../images/Fond.jpg');
     background-repeat: no-repeat;
     background-size: contain;
 }

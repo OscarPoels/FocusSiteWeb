@@ -1,92 +1,131 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
+<?php
+session_start();
+
+if (!isset($_SESSION['id'])) {
+    header("location: connexion.php");
+}
+include("MenuVerticalProfil.php");
+
+?>
 <head>
     <meta charset="UTF-8">
     <title>Profil</title>
-    <link rel="stylesheet" href="ProfilUtilisateur.css"/>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>  <!-- Importer scripte pour les logos -->
+    <link rel="stylesheet" href="Stylesheets/ProfilUtilisateur.css"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 </head>
 
-<body>
-<?php
-session_start();
-if (!isset($_SESSION['id'])) {
-    header("location: Connexion.php");
-}
-?>
 
-<div class="barreHeader">
+<header class="barreHeader">
     <?php
-    if (isset($_SESSION['id']) AND isset($_SESSION['prenom']) AND isset($_SESSION['nom'])) {
-        echo "<div id='titreProfil'>" . $_SESSION['prenom'] . " " . $_SESSION['nom'] . "</div>";
-    }
+    echo "<div id='titreProfil'>" . $_SESSION['prenom'] . " " . $_SESSION['nom'] . "</div>";
+
     ?>
     <form method="post" action="includes/deconnexionUtilisateur.php">
-        <button type="submit" name="submit" id="deconnexion">&emsp;Deconnexion&emsp;</button>
+        <button type="submit" name="submit" id="deconnexion">
+            <div id="logoDeco"></div>
+            <p>Déconnexion</p></button>
     </form>
     <a href="Accueil.php"><img src="images/maison.png" id="maisonAccueil" alt=""></a>
+</header>
+
+<body>
+
+
+<?php
+if (isset($_GET['modification'])) {
+    if ($_GET['modification'] == 'OK') {
+        echo "<div id='successModif' >Vos modifications ont bien été prises en compte </div>";
+    }
+}
+
+/*if (isset($_GET['suppPhoto'])) {
+    switch ($_GET['suppPhoto']) {
+        case 'oui':
+            break;
+        default:
+            break;
+    }
+}
+*/ ?>
+
+<!--
+<a class="Bouton" id="boutonModiflProfil" href="modificationProfilUtilisateur.php"><img src="images/reglage.png" id="logoReglage">
+    <p id="reglageTexte">Modifier mon profil</p></a>-->
+
+<div class="infoProfil">
+    <div class="statsTexte" id='stat1'>Membre depuis :</div>
+    <?php
+    if (isset($_SESSION['DateInscription'])) {
+        echo "<div class=\"stats\" id='dateInscription'>" . $_SESSION['DateInscription'] . "</div>";
+    } else {
+        echo "<div  class=\"stats\" id='dateInscription'> N/A </div>";
+    }
+    ?>
+    <div class="barre" id='barreStat1'></div>
+
+    <div class="statsTexte" id='stat2'>Age :</div>
+    <?php
+    if (isset($_SESSION['age'])) {
+        echo "<div class=\"stats\" id='age'>" . $_SESSION['age'] . " ans" . "</div>";
+    } else {
+        echo "<div class=\"stats\" id='age'> N/A </div>";
+    }
+    ?>
+    <div class="barre" id='barreStat2'></div>
+
+    <div class="statsTexte" id='stat3'>Nombre de tests :</div>
+    <?php
+    if (isset($_SESSION['nombreTest'])) {
+        echo "<div class=\"stats\" id='nbTests'>" . $_SESSION['nombreTest'] . "</div>";
+    } else {
+        echo "<div class=\"stats\" id='nbTests'> N/A </div>";
+    }
+    ?>
+    <div class="barre" id='barreStat3'></div>
+    <div class="statsTexte" id='stat4'>Points :</div>
+    <?php
+    if (isset($_SESSION['points'])) {
+        echo "<div class=\"stats\" id='nbPoints'>" . $_SESSION['points'] . "</div>";
+    } else {
+        echo "<div class=\"stats\" id='nbPoints'> N/A </div>";
+    }
+    ?>
+
 </div>
 
-<?php include("MenuVerticalProfil.php"); ?>
-
-<img src="images/perso.jpg" id="photoProfil" alt=""/>
-
-<a class="Bouton" id="boutonModiflProfil" href="modificationProfilUtilisateur.php">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-    &emsp;&emsp;&emsp;&emsp;Modifier mon profil</a>
-
-
-<div class="infoProfil"></div>
-
-
 <?php
-
-if (isset($_SESSION['id']) AND isset($_SESSION['DateInscription']) AND isset($_SESSION['NombreTestsUtilisateur']) AND isset($_SESSION['NombrePointsUtilisateur'])) {
-    echo "<div id='stat1'>" . "Membre depuis :" . "</div>";
-    echo "<div id='dateInscription'>" . $_SESSION['DateInscription'] . "</div>";
-    echo "<div id='barreStat1'>" . "</div>";
-
-    echo "<div id='stat2'>" . "Age :" . "</div>";
-    echo "<div id='age'>" . $_SESSION['AgeUtilisateur'] . " ans" . "</div>";
-    echo "<div id='barreStat2'>" . "</div>";
-
-
-    echo "<div id='stat3'>" . "Nombre de tests :" . "</div>";
-    echo "<div id='nbTests'>" . $_SESSION['NombreTestsUtilisateur'] . "</div>";
-    echo "<div id='barreStat3'>" . "</div>";
-
-    echo "<div id='stat4'>" . "Nombre de points :" . "</div>";
-    echo "<div id='nbPoints'>" . $_SESSION['NombrePointsUtilisateur'] . "</div>";
-
-}
-?>
-
-
-
-<?php
-if (isset($_SESSION['id']) AND isset($_SESSION['prenom'])) {
-    echo "<div id='titreTest'>" . $_SESSION['prenom'] . ", qu'est ce qu'on fait ajourd'hui ?" . "</div>";
-}
+echo "<div id='titreBienvenue'>" . $_SESSION['prenom'] . ", qu'est ce qu'on fait ajourd'hui ?" . "</div>";
 ?>
 
 <div class="imagesTests">
-    <div id="barreTitreCardiaque"></div>
-    <div class="titreTest" id="titreFreqCardiaque">Fréquence cardiaque</div>
-    <a href="#"><img src="images/cardiaque.png" id="imageCardiaque" alt=""></a>
+    <div class="barreTest" id="barreTitreCardiaque">
+        <div class="titreTest" id="titreFreqCardiaque">Fréquence cardiaque</div>
+    </div>
 
-    <div id="barreTitreTonalite"></div>
-    <div class="titreTest" id="titreTonalite">Reconnaissance de tonalité</div>
-    <a href="#"><img src="images/micro.jpg" id="imageTonalite" alt=""></a>
+    <a href="#"><img class="imageTest" src="images/cardiaque.png" id="imageCardiaque" alt=""></a>
 
-    <div id="barreTitreTemp"></div>
-    <div id="titreTemperature">Température de la peau</div>
-    <a href="#"><img src="images/temperature.jpg" id="imageTemp" alt=""></a>
+    <div class="barreTest" id="barreTitreTonalite">
+        <div class="titreTest" id="titreTonalite">Reconnaissance de tonalité</div>
+    </div>
 
-    <div id="barreTitreStimulus"></div>
-    <div id="titreStimu">Stimulus visuel // sonore</div>
-    <a href="#"><img src="images/oeil.png" id="imageVisu" alt=""></a>
-    <a href="#"><img src="images/son.png" id="imageSon" alt=""></a>
+    <a href="#"><img class="imageTest" src="images/micro.jpg" id="imageTonalite" alt=""></a>
+
+    <div class="barreTest" id="barreTitreTemp">
+        <div class="titreTest">Température de la peau</div>
+    </div>
+
+    <a href="#"><img class="imageTest" src="images/temperature.jpg" id="imageTemp" alt=""></a>
+
+    <div class="barreTest" id="barreTitreStimulus">
+        <div class="titreTest">Stimulus visuel // sonore</div>
+    </div>
+
+    <a href="#"><img class="imageTest" src="images/oeil.png" id="imageVisu" alt=""></a>
+    <a href="#"><img class="imageTest" src="images/son.png" id="imageSon" alt=""></a>
 </div>
 
 <a href="#" id="barreBas"></a>
@@ -94,7 +133,13 @@ if (isset($_SESSION['id']) AND isset($_SESSION['prenom'])) {
 <a href="#"><i class="fas fa-angle-down" id="flecheBas1" style="color: white"></i></a>
 <a href="#"><i class="fas fa-angle-down" id="flecheBas2" style="color: white"></i></a>
 
-<div id="contourPhoto"></div>
+<div id="contourPhoto">
+
+    <img src="avatars/<?php echo $_SESSION['avatar'] ?>" id="photoProfil"
+         alt=""/>
+
+
+</div>
 <div id="nomProfil"></div>
 
 </body>

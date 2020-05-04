@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Gestion FAQ</title>
-    <link rel="stylesheet" href="GestionFAQ.css"/>
+    <link rel="stylesheet" href="Stylesheets/GestionFAQ.css"/>
 </head>
 
 <body>

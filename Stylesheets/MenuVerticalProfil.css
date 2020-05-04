@@ -6,12 +6,13 @@
 }
 
 .sidebar {
+    top: 0;
     position: fixed;
-    left: -250px;
+    left: -180px;
     width: 250px;
     height: 100%;
-    background: #042331;
-    transition: all .5s ease;
+    background: rgba(67, 66, 93, 0.88);
+    transition: all 1s ease;
     z-index: 500;
 }
 
@@ -24,36 +25,26 @@
     color: white;
     padding-left: 30px;
     line-height: 70px;
-    background: #063143;
+    background: rgba(6, 19, 33, 0.84);
     user-select: none;
 }
 
 .sidebar1 a {
     display: block;
-    height: 100%;
-    width: 100%;
     line-height: 65px;
     font-size: 15px;
     color: white;
-    padding-left: 30px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(255, 255, 255, .1);
-    border-bottom: 1px solid black;
-    transition: .4s;
+    transition: 1s;
 }
 
 .mesTests #btnMesTests {
     display: block;
-    height: 100%;
-    width: 100%;
     line-height: 65px;
     font-size: 15px;
     color: white;
-    padding-left: 30px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(255, 255, 255, .1);
-    border-bottom: 1px solid black;
-    transition: .4s;
+    transition: 1s;
 }
 
 .mesTests .mesTestsContenu {
@@ -67,9 +58,7 @@
     color: white;
     padding-left: 50px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(255, 255, 255, .1);
-    border-bottom: 1px solid black;
-    transition: .4s;
+    transition: 1s;
 }
 
 /* Afficher le menu déroulant lors du survol de " Mes tests " */
@@ -79,16 +68,11 @@
 
 .sidebar2 a {
     display: block;
-    height: 100%;
-    width: 100%;
     line-height: 65px;
     font-size: 15px;
     color: white;
-    padding-left: 30px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(255, 255, 255, .1);
-    border-bottom: 1px solid black;
-    transition: .4s;
+    transition: 1s;
 }
 
 .mesTests #btnMesTests:hover {
@@ -96,10 +80,9 @@
 }
 
 .sidebar ul li:hover a {
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
-/* Les icônes */
 .sidebar ul a i {
     margin-right: 10px;
 }
@@ -118,11 +101,12 @@ label #btnMenu {
     left: 10px;
     top: 17px;
     font-size: 25px;
-    color: black;
+    color: white;
     padding: 6px 12px;
-    transition: all .5s;
+    transition: all .7s;
     z-index: 1000;
 }
+
 
 label #cancelMenu {
     z-index: 1000;
@@ -131,22 +115,47 @@ label #cancelMenu {
     top: 17px;
     font-size: 20px;
     padding: 4px 9px;
-    transition: all .5s ease;
+    transition: all .7s ease;
 }
 
 #check:checked ~ .sidebar {
     left: 0;
 }
 
+
 /* Si on appuit sur btnMenu alors on coche la checkBock et "conditions" */
 #check:checked ~ label #btnMenu {
     left: 250px;
     opacity: 0;
     pointer-events: none;
-
 }
 
-/* Si on appuit sur cancelMenu alors on coche la checkBock et "conditions" */
+
+#check:not(:checked) ~ .sidebar a{
+    padding-left: 0;
+}
+
+.fas, .far{
+    position: fixed;
+    left: 20px;
+    padding-top: 25px;
+}
+
+#check:checked ~ .sidebar .fas {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-left: 25px;
+}
+
+#check:checked ~ .sidebar .far {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-left: 25px;
+}
+
+    /* Si on appuit sur cancelMenu alors on coche la checkBock et "conditions" */
 #check:checked ~ label #cancelMenu {
     left: 195px;
 }

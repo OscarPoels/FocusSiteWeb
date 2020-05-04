@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Profil</title>
-    <link rel="stylesheet" href="MesTests.css"/>
+    <link rel="stylesheet" href="Stylesheets/MesTests.css"/>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>  <!-- Importer scripte pour les logos -->
 
 </head>
@@ -42,7 +42,7 @@ else{
         echo '<div class="Texte"> Vous n\'avez effectué aucun test ou ils ont été supprimés </div>';
     }
     else {
-        $db = new PDO('mysql:host=localhost;dbname=focus_g6d', 'root', '');
+        $db = new PDO('mysql:host=localhost;dbname=focus', 'root', '');
         $id = $_SESSION['id'];
 
 
@@ -54,7 +54,7 @@ else{
 
 
         for($i = 1; $i <= $resultat2['Nb']; $i++) {
-            $sql = "SELECT * FROM test WHERE numeroUtilisateur = '$id' AND numeroTest = '$i'";
+            $sql = "SELECT * FROM test WHERE id = '$id' AND numeroTest = '$i'";
             $res = $db->prepare($sql);
             $res->execute();
             $resultat = $res->fetch();

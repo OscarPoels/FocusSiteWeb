@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Gestion des Utilisateurs</title>
-    <link rel="stylesheet" href="GestionUtilisateurs.css"/>
+    <link rel="stylesheet" href="Stylesheets/GestionUtilisateurs.css"/>
 </head>
 
 <body>

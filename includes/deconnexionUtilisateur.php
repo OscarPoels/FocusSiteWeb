@@ -11,4 +11,6 @@ if (isset($_POST['submit'])) {
     setcookie('MotDePasseUtilisateur', '');
 
     header("Location: ../Connexion.php?connexion=end");
+}else {
+    echo 'ERREUR';
 }

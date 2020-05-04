@@ -6,7 +6,7 @@ session_start();
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="Inscription.css"/>
+    <link rel="stylesheet" href="Stylesheets/Inscription.css"/>
     <title>Inscription</title>
     <script type="text/javascript">
         function verifyPass(element1, element2) {

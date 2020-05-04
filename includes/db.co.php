@@ -7,7 +7,7 @@ if (isset($_POST['submit'])) {
 
     $mdp = password_hash($mdp, PASSWORD_DEFAULT);
 
-    $db = new PDO('mysql:host=localhost;dbname=focus_g6d', 'root', '');
+    $db = new PDO('mysql:host=localhost;dbname=focus', 'root', '');
 
     $sql = "SELECT * FROM utilisateur WHERE mail = '$mail'";
     $res = $db->prepare($sql);
@@ -23,11 +23,13 @@ if (isset($_POST['submit'])) {
     else
     {
         if ($isPasswordCorrect) {
-            $_SESSION['id']= $resultat['numeroUtilisateur'];
+            $_SESSION['id']= $resultat['id'];
             $_SESSION['nom'] = $resultat['nom'];
             $_SESSION['prenom'] = $resultat['prenom'];
             $_SESSION['mail'] = $resultat['mail'];
             $_SESSION['nombreTest'] = $resultat['nombreTest'];
+            $_SESSION['points'] = $resultat['points'];
+            $_SESSION['avatar'] = $resultat['avatar'];
 
             header('location: ../ProfilUtilisateur.php');
         }
@@ -36,6 +38,8 @@ if (isset($_POST['submit'])) {
         }
     }
 
+}else {
+    echo 'ERREUR';
 }
 
 

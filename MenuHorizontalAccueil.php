@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Menu</title>
-    <link rel="stylesheet" href="MenuHorizontalAccueil.css"/>
+    <link rel="stylesheet" href="Stylesheets/MenuHorizontalAccueil.css"/>
 </head>
 
 <?php

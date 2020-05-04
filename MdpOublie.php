@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="MdpOublie.css"/>
+    <link rel="stylesheet" href="Stylesheets/MdpOublie.css"/>
     <title>Mot de passe oublié</title>
 </head>
 <body>

@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="ConditionsUtilisations.css"/>
+    <link rel="stylesheet" href="Stylesheets/ConditionsUtilisations.css"/>
     <title>Conditions d'utilisations - FOCUS</title>
 </head>
 

@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'SourceSansProBold';
-    src: url('Police/SourceSansPro-Bold.ttf') format("truetype");
+    src: url('../Police/SourceSansPro-Bold.ttf') format("truetype");
 }
 
 @font-face {
     font-family: 'SourceSansProRegular';
-    src: url('Police/SourceSansPro-Regular.ttf') format("truetype");
+    src: url('../Police/SourceSansPro-Regular.ttf') format("truetype");
 }
 
 * {
@@ -71,7 +71,7 @@ html, body {
 }
 
 .ChampsDeConnexion {
-    width: 400px;
+    width: 60%;
     height: 114px;
     margin-left: auto;
     margin-right: auto;
@@ -127,7 +127,7 @@ input[type=checkbox] {
 
 
 input[type=checkbox]:checked {
-    background-image: url("images/Coche.png");
+    background-image: url("../images/Coche.png");
     background-size: 90%;
     background-position: right top;
     background-repeat: no-repeat;

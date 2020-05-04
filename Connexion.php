@@ -3,13 +3,13 @@
 <html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="Connexion.css"/>
+    <link rel="stylesheet" href="Stylesheets/Connexion.css"/>
     <title>Connexion</title>
 </head>
 
 <?php
 if (isset($_SESSION['id'])) {
-    header("location: profilutilisateur.php");
+    header("location: ProfilUtilisateur.php");
 }
 ?>
 
