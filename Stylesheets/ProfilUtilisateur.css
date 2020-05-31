@@ -1,6 +1,3 @@
-html {
-    overflow-y: hidden;
-}
 
 body {
     background: #F0F0F7;
@@ -36,81 +33,6 @@ body {
         left: 620px;
     }
 }
-
-.barreHeader {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 70px;
-    background-color: white;
-    z-index: 100;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.19);
-}
-
-#logoDeco {
-    background: url(../images/deconnexion-logo-normal.png);
-    background-size: 15px 15px;
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    left: 7px;
-    top: 11px;
-}
-
-#successModif {
-    position: absolute;
-    color: #03c700;
-    top: 100px;
-    left: 950px;
-    font-size: 17px;
-    font-weight: normal;
-}
-
-#titreProfil {
-    position: absolute;
-    color: #43425D;
-    font-size: 45px;
-    top: 8px;
-    left: 38%;
-}
-
-#deconnexion {
-    color: #43425D;
-    position: absolute;
-    top: 20px;
-    right: 5%;
-    text-decoration: none;
-    padding: 10px;
-    padding-left: 32px;
-    border: none;
-    border-radius: 20px;
-    background: none;
-    box-shadow: inset 0 0 0 2px #43425D;
-    transition: all 0.25s ease;
-    transition-duration: 1s;
-}
-
-#deconnexion:hover {
-    cursor: pointer;
-    box-shadow: inset 0 0 0 60px rgb(229, 33, 60);
-}
-
-#deconnexion:hover p {
-    color: white;
-}
-
-
-#deconnexion:hover #logoDeco {
-    background-image: url(../images/deconnexion-logo.png);
-}
-
-#maisonAccueil {
-    position: absolute;
-    right: 1%;
-    top: 25px;
-    width: 20px;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -123,78 +45,6 @@ body {
 }
 
 
-#photoProfil {
-    width: 100%;
-    height: 100%;
-}
-
-
-#titrePhotoProfil {
-    position: absolute;
-    color: white;
-    font-weight: normal;
-    top: 300px;
-    left: 500px;
-    font-size: 30px;
-}
-
-#contourPhoto {
-    top: 100px;
-    position: absolute;
-    background: grey;
-    width: 500px;
-    height: 600px;
-    border-radius: 10px;
-}
-
-/*
-#boutonModiflProfil {
-    font-family: SourceSansProRegular, serif;
-    padding-left: 20px;
-    padding-right: 10px;
-    position: absolute;
-    text-align: center;
-    width: 200px;
-    height: 40px;
-    top: 710px;
-    left: 1000px;
-    text-decoration: none;
-    background: #43425D;
-    border-radius: 10px;
-    font-size: 20px;
-    letter-spacing: 1px;
-    font-weight: 200;
-}
-*/
-
-
-#reglageTexte {
-    color: white;
-}
-
-#logoReglage {
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    left: 3px;
-    top: 2px;
-}
-
-#boutonModiflProfil:hover {
-
-}
-
-
-.infoProfil {
-    position: absolute;
-    width: 200px;
-    height: 450px;
-    background: #43425D;
-    top: 150px;
-    left: 500px;
-    text-align: center;
-}
-
 .imagesTests {
     width: 700px;
     height: 600px;
@@ -204,35 +54,6 @@ body {
     background-color: white;
 }
 
-.barre {
-    margin-top: 20px;
-    height: 1px;
-    background: white;
-    width: 150px;
-    opacity: 0.7;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.stats, .statsTexte {
-    margin-top: 25px;
-    color: white;
-    font-weight: bold;
-}
-
-.statsTexte {
-    font-size: 10px;
-}
-
-#dateInscription {
-    top: 270px;
-    left: 300px;
-    color: white;
-}
-
-#nbPoints {
-    color: #03c700;
-}
 
 .barreTest {
     position: absolute;
@@ -345,7 +166,7 @@ body {
 
 #titreBienvenue {
     position: absolute;
-    color: #042331;
+    color: #43425D;
     top: 100px;
     left: 870px;
     font-size: 31px;

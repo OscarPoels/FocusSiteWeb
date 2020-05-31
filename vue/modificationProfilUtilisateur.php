@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Profil</title>
-    <link rel="stylesheet" href="Stylesheets/modificationProfilUtilisateur.css"/>
+    <link rel="stylesheet" href="../Stylesheets/modificationProfilUtilisateur.css"/>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>  <!-- Importer scripte pour les logos -->
     <script type="text/javascript">
         function verifyPass(element1, element2) {
@@ -25,12 +25,20 @@
 <?php
 session_start();
 $db = new PDO('mysql:host=localhost;dbname=focus', 'root', '');
-?>
 
-<?php
+if (isset($_GET['modification'])) {
+    if ($_GET['modification'] == 'OK') {
+        echo "<div id='successModif' >Vos modifications ont bien été prises en compte </div>";
+    }
+}
 if (isset($_GET['mdp'])) {
     if ($_GET['mdp'] == 'false') {
         echo "<div id='failed' >Mot de passe incorrect</div>";
+    }
+}
+if (isset($_GET['erreur'])) {
+    if ($_GET['erreur'] == 'true') {
+        echo "<div id='failed' >Une erreur s'est produite, veuillez contacter un administrateur</div>";
     }
 }
 if (isset($_GET['photo'])) {
@@ -48,71 +56,18 @@ if (isset($_GET['photo'])) {
             break;
     }
 }
+
+include('header.php');
+include('infoProfil.php');
+include('MenuVerticalProfil.php')
 ?>
 
-<div class="barreHeader">
-    <?php
-    if (isset($_SESSION['id'])) {
-        echo "<div id='titreProfil'>" . $_SESSION['prenom'] . " " . $_SESSION['nom'] .
-            "- Edition Profil" . "</div>";
-    }
-    ?>
-    <form method="post" action="includes/deconnexionUtilisateur.php">
-        <button type="submit" name="submit" id="deconnexion">&emsp;Deconnexion&emsp;</button>
-    </form>
-    <a href="Accueil.php"><img src="images/maison.png" id="maisonAccueil" alt=""></a>
-</div>
-
-<div id="contourPhoto">
-    <img src="avatars/<?php echo $_SESSION["avatar"] ?>" id="photoProfil"
-         alt=""/>
-
-</div>
 <div id="nomProfil"></div>
-<div class="infoProfil">
-    <div class="statsTexte" id='stat1'>Membre depuis :</div>
-    <div class="barre" id='barreStat1'></div>
-    <?php
-    if (isset($_SESSION['DateInscription'])) {
-        echo "<div class=\"stats\" id='dateInscription'>" . $_SESSION['DateInscription'] . "</div>";
-    } else {
-        echo "<div  class=\"stats\" id='dateInscription'> N/A </div>";
-    }
-    ?>
-    <div class="statsTexte" id='stat2'>Age :</div>
-    <div class="barre" id='barreStat2'></div>
-    <?php
-    if (isset($_SESSION['age'])) {
-        echo "<div class=\"stats\" id='age'>" . $_SESSION['age'] . " ans" . "</div>";
-    } else {
-        echo "<div class=\"stats\" id='age'> N/A </div>";
-    }
-    ?>
-    <div class="statsTexte" id='stat3'>Nombre de tests :</div>
-    <div class="barre" id='barreStat3'></div>
-    <?php
-    if (isset($_SESSION['nombreTest'])) {
-        echo "<div class=\"stats\" id='nbTests'>" . $_SESSION['nombreTest'] . "</div>";
-    } else {
-        echo "<div class=\"stats\" id='nbTests'> N/A </div>";
-    }
-    ?>
-    <div class="statsTexte" id='stat4'>Points :</div>
-    <div class="barre" id='barreStat4'></div>
 
-    <?php
-    if (isset($_SESSION['points'])) {
-        echo "<div class=\"stats\" id='nbPoints'>" . $_SESSION['points'] . "</div>";
-    } else {
-        echo "<div class=\"stats\" id='nbPoints'> N/A </div>";
-    }
-    ?>
-</div>
+<div class="Texte" id="GrandTitre"> Complétez vos informations</div>
 
-
-<div class="Texte" id="GrandTitre"> Compléter vos informations</div>
-
-<form method="post" name="myForm" action="includes/db.modification.php"
+<form method="post" name="myForm" action="../controleurs/utilisateur.php?vue=modificationProfilUtilisateur"
+      id="fondInfo"
       onsubmit="return verifyPass(this.NewMdp, this.confirmNewMdp)"
       enctype="multipart/form-data">
     <div class="ChampsDeModification">
@@ -166,8 +121,6 @@ if (isset($_GET['photo'])) {
         Enregistrer
     </button>
 </form>
-
-<a class="Bouton" id="BoutonAnnulerModif" href="ProfilUtilisateur.php">Annuler</a>
 
 
 <div id="barreBas"></div>

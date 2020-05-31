@@ -1,9 +1,13 @@
+
+
 body {
+    background: #F0F0F7;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media (max-width: 650px) {
@@ -14,47 +18,6 @@ body {
     #maisonAccueil {
         left: 620px;
     }
-}
-
-.barreHeader {
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: 80px;
-    background-color: #43425D;
-    z-index: 100;
-}
-
-
-#titreProfil {
-    position: absolute;
-    color: white;
-    font-size: 45px;
-    top: 10px;
-    left: 38%;
-}
-
-#deconnexion {
-    color: white;
-    position: absolute;
-    top: 30px;
-    right: 5%;
-    text-decoration: none;
-    border: 3px solid #B5B5B5;
-    border-radius: 20px;
-    background-color: #B5B5B5;
-    opacity: 0.9;
-}
-
-#deconnexion:hover {
-    cursor: pointer;
-}
-
-#maisonAccueil {
-    position: absolute;
-    right: 1%;
-    top: 30px;
-    width: 20px;
 }
 
 body {
@@ -68,65 +31,28 @@ body {
     text-decoration: none;
 }
 
-#photoProfil {
-    width: 100%;
-    height: 100%;
-}
 
-#contourPhoto {
-    position: absolute;
-    background: grey;
-    width: 500px;
+#fondInfo {
+    width: 700px;
     height: 600px;
-    border-radius: 10px;
-}
-
-
-.infoProfil {
     position: absolute;
-    width: 200px;
-    height: 450px;
-    background: black;
     top: 150px;
-    left: 500px;
-    text-align: center;
+    left: 750px;
 }
-
-.barre{
-    margin-top: 10px;
-    height: 1px;
-    background: grey;
-    width: 150px;
-    opacity: 0.7;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.stats, .statsTexte {
-    margin-top: 25px;
-    color: grey;
-}
-
-.statsTexte{
-    font-weight: bold;
-}
-
-
-#nbPoints{
-    color: #03c700;
-}
-
 
 .ChampsDeModification {
     position: absolute;
-    top: 250px;
-    left: 900px;
+    top: 100px;
+    left: 150px;
     width: 400px;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
 }
 
+input{
+    background-color: #F0F0F7;
+}
 .PetiteBarre {
     height: 1px;
     width: 45%;
@@ -175,11 +101,11 @@ body {
 
 #BoutonEnregistrerModif {
     position: absolute;
+    top: 550px;
+    left: 250px;
     text-align: center;
-    top: 665px;
-    left: 900px;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 60px;
     border-radius: 3px;
     background-color: #43425D;
     color: white;
@@ -187,25 +113,18 @@ body {
     font-size: 13px;
 }
 
-#BoutonEnregistrerModif:hover{
+#BoutonEnregistrerModif:hover {
     cursor: pointer;
 }
 
-#BoutonAnnulerModif {
+#successModif {
     position: absolute;
-    text-align: center;
-    top: 665px;
-    left: 1200px;
-    display: flex;
-    text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 3px;
-    background-color: #43425D;
-    color: white;
-    border: 3px solid #43425D;
-    font-size: 13px;
+    color: #03c700;
+    top: 150px;
+    left: 930px;
+    font-size: 17px;
+    font-weight: normal;
 }
-
 
 #failed {
     position: absolute;
@@ -245,12 +164,13 @@ body {
 
 #GrandTitre {
     position: absolute;
-    font-family: SourceSansProBold, sans-serif;
-    font-size: 40px;
     color: #43425D;
-    left: 830px;
-    top: 140px;
+    top: 100px;
+    left: 910px;
+    font-size: 31px;
+    font-family: SourceSansProBold, serif;
 }
+
 
 
 

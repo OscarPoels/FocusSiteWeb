@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Profil Menu</title>
-    <link rel="stylesheet" href="Stylesheets/MenuVerticalProfil.css"/>
+    <link rel="stylesheet" href="../Stylesheets/MenuVerticalProfil.css"/>
 </head>
 <body>
 
@@ -42,15 +42,22 @@
 
         <div class="sidebar2">
             <li><a href="#"><i class="fas fa-question"></i> FAQ</a></li>
-            <li><a href="mailto:infinitemeasures.focus@gmail.com" id="mail"><i class="far fa-envelope"></i> Nous
+            <li>
+                <div class="ContactAdmin"></div>
+                <a href="../controleurs/utilisateur.php?vue=ContactAdmin" id="ContactAdmin"><i
+                            class="far fa-envelope"></i> Nous
                     contacter</a></li>
-            <li><a href="#"><i class="fas fa-cog"></i> Réglages</a></li>
+            <li>
+                <div class="modificationProfilUtilisateur"></div>
+                <a id="modificationProfilUtilisateur"
+                   href="../controleurs/utilisateur.php?vue=modificationProfilUtilisateur"><i class="fas fa-cog"></i>
+                    Réglages</a></li>
         </div>
     </ul>
 </div>
 <script type="text/javascript">
-    let pos = document.location.pathname.substring(10, document.location.pathname.length - 4);
-    console.log(document.location.pathname.substring(10, document.location.pathname.length - 4));
+    let pos = document.location.pathname.substring(14, document.location.pathname.length - 4);
+    console.log(document.location.pathname.substring(14, document.location.pathname.length - 4));
     document.getElementById(pos).style.backgroundColor = 'rgba(6,19,33,0.87)';
     document.getElementsByClassName(pos)[0].style.width = '2px';
     document.getElementsByClassName(pos)[0].style.position = 'fixed';

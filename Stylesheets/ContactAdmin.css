@@ -1,0 +1,123 @@
+
+body {
+    background: #F0F0F7;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+@media (max-width: 650px) {
+    #deconnexion {
+        left: 505px;
+    }
+
+    #maisonAccueil {
+        left: 620px;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#fondInfo {
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    top: 150px;
+    left: 750px;
+}
+
+.ChampsDeModification {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#GrandTitre {
+    position: absolute;
+    color: #43425D;
+    top: 100px;
+    left: 910px;
+    font-size: 31px;
+    font-family: SourceSansProBold, serif;
+}
+
+#sujet {
+    position: absolute;
+}
+
+#demande {
+    position: absolute;
+    top: 100px;
+}
+
+#textSujet {
+    position: absolute;
+    top: 30px;
+}
+
+#textSujet {
+    position: absolute;
+    width: 420px;
+
+}
+
+#textDemande{
+    position: absolute;
+    top: 30px;
+    height: 300px;
+}
+
+#BoutonEnvoyer {
+    position: absolute;
+    top: 550px;
+    left: 250px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 60px;
+    border-radius: 3px;
+    background-color: #43425D;
+    color: white;
+    border: 3px solid #43425D;
+    font-size: 13px;
+}
+
+#BoutonEnvoyer:hover {
+    cursor: pointer;
+}
+
+#fail{
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #c70700;
+    text-align: center;
+}
+
+#correct{
+    position: absolute;
+    top: 200px;
+    left: 930px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #03c700;
+}

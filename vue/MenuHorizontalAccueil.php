@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Menu</title>
-    <link rel="stylesheet" href="Stylesheets/MenuHorizontalAccueil.css"/>
+    <link rel="stylesheet" href="../Stylesheets/MenuHorizontalAccueil.css"/>
 </head>
 
 <?php
@@ -17,18 +17,18 @@
 <header>
     <nav>
         <a class="logo" href="#">
-            <img id="logoMenu" src="images/focus.png" width="90" height="40" alt="">
+            <img id="logoMenu" src="../images/focus.png" width="90" height="40" alt="">
         </a>
         <div class="langues">
-            <a class="enFrancais" href="Accueil.php?langue=francais">
-                <img src="images/drapeauFrance.png" width="30" height="20" alt="">
+            <a class="enFrancais" href="Acceuil.php?langue=francais">
+                <img src="../images/drapeauFrance.png" width="30" height="20" alt="">
             </a>
             <div class="langues-contenu">
-                <a class="enAnglais" href="Accueil.php?langue=anglais">
-                    <img src="images/drapeauUK.png" width="30" height="30" alt="">
+                <a class="enAnglais" href="Acceuil.php?langue=anglais">
+                    <img src="../images/drapeauUK.png" width="30" height="30" alt="">
                 </a>
-                <a class="enEspagnol" href="Accueil.php?langue=espagnol">
-                    <img src="images/drapeauEspagne.png" width="30" height="20" alt="">
+                <a class="enEspagnol" href="Acceuil.php?langue=espagnol">
+                    <img src="../images/drapeauEspagne.png" width="30" height="20" alt="">
                 </a>
             </div>
         </div>

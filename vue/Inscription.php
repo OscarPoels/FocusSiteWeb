@@ -6,7 +6,7 @@ session_start();
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="Stylesheets/Inscription.css"/>
+    <link rel="stylesheet" href="../Stylesheets/Inscription.css"/>
     <title>Inscription</title>
     <script type="text/javascript">
         function verifyPass(element1, element2) {
@@ -21,7 +21,7 @@ session_start();
     </script>
 </head>
 <body>
-<div class="gauche"><img src="images/PageConnexion.jpg" alt="Photo page de connexion"/></div>
+<div class="gauche"><img src="../images/PageConnexion.jpg" alt="Photo page de connexion"/></div>
 <div class="droite">
     <div id="GrandTitre"> Inscription</div>
     <div id="SousTitre"> Remplissez les champs ci-dessous pour compléter votre incription</div>
@@ -34,7 +34,7 @@ session_start();
         }
     }
     ?>
-    <form method="post" action="includes/db.inc.php" onsubmit=" return verifyPass(this.Mdp, this.ConfirmerMdp)">
+    <form method="post" action="../controleurs/utilisateur.php?vue=Inscription" onsubmit=" return verifyPass(this.Mdp, this.ConfirmerMdp)">
         <div class="ChampsDeConnexion">
             <div class="Box" id="Box1">
                 <input id="FormPrenom" type="text" class="MoitierInput" placeholder="Prénom" size="21" name="prenom"

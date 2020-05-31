@@ -3,7 +3,7 @@
 <html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="Stylesheets/Connexion.css"/>
+    <link rel="stylesheet" href="../Stylesheets/Connexion.css"/>
     <title>Connexion</title>
 </head>
 
@@ -14,7 +14,7 @@ if (isset($_SESSION['id'])) {
 ?>
 
 <body>
-<div class="gauche"><img src="images/PageConnexion.jpg" alt="Photo page de connexion"/></div>
+<div class="gauche"><img src="../images/PageConnexion.jpg" alt="Photo page de connexion"/></div>
 <div class="droite">
     <div class="Texte" id="GrandTitre"> Connexion</div>
     <div class="Texte" id="SousTitre"> Veuillez vous connecter à votre compte</div>
@@ -28,7 +28,7 @@ if (isset($_SESSION['id'])) {
         }
     }
     ?>
-    <form method="post" action="includes/db.co.php">
+    <form method="post" action="../controleurs/utilisateur.php?vue=Connexion">
         <div class="ChampsDeConnexion">
             <input type="email" name="mail" placeholder="E-mail" size="50" required/>
             <div class="Barre" id="barre1" alt="Barre design"></div>

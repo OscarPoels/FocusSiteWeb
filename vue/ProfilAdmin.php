@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>ProfilAdmin</title>
-    <link rel="stylesheet" href="Stylesheets/ProfilAdmin.css"/>
+    <link rel="stylesheet" href="../Stylesheets/ProfilAdmin.css"/>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
@@ -13,10 +13,10 @@ session_start();
 ?>
 <div class="barreHeader">
     <h2><p id="titreProfil">MENU ADMINISTRATEUR</p></h2>
-    <form method="post" action="includes/deconnexionUtilisateur.php">
+    <form method="post" action="../modele/deconnexionUtilisateur.php">
         <button type="submit" name="submit" id="deconnexion">&emsp;Deconnexion&emsp;</button>
     </form>
-    <a href="Accueil.php"><img src="images/maison.png" id="maisonAccueil" alt=""></a>
+    <a href="Acceuil.php"><img src="../images/maison.png" id="maisonAccueil" alt=""></a>
 </div>
 
 <div class="SecondeBarre">
