@@ -71,20 +71,20 @@ scroll-page {
 
 .titre {
     position: absolute;
-    top: 109%;
-    left: 41%;
+    top: 916px;
+    left: 580px;
     color: white;
 }
 
 .carre_gauche {
     position: absolute;
-    left: 8%;
-    top: 124%;
-    width: 40%;
+    left: 100px;
+    top: 1042px;
+    width: 550px;
     height: 550px;
     border-radius: 13px;
     background-color: rgba(38, 38, 38, 5.3);
-    z-index: 1;
+    text-align: center;
 }
 
 #logoFocus {
@@ -104,13 +104,11 @@ scroll-page {
     position: absolute;
     color: white;
     top: 190px;
-    left: 35px;
 }
 
 #sous_titre {
     position: absolute;
     color: white;
-    left: 85px;
     top: 270px;
     font-weight: bold;
 }
@@ -119,21 +117,19 @@ scroll-page {
     position: absolute;
     color: white;
     top: 310px;
-    left: 35px;
 }
 
 #para3 {
     position: absolute;
     color: white;
     top: 390px;
-    left: 40px;
 }
 
 .carre_droite {
     position: absolute;
-    right: 8%;
-    top: 124%;
-    width: 40%;
+    left: 850px;
+    top: 1042px;
+    width: 550px;
     height: 550px;
     border-radius: 13px;
     background-color: dimgray;
@@ -176,6 +172,8 @@ scroll-page {
     top: 200px;
 }
 
+
+
 #analyse {
     position: absolute;
     width: 200px;
@@ -195,20 +193,20 @@ scroll-page {
     position: absolute;
     color: white;
     left: 454px;
-    top: 195%;
+    top: 1639px;
 }
 
 #l1 {
     position: absolute;
     width: 300px;
     left: 30px;
-    top: 210%;
+    top: 1766px;
 }
 
 #titrel1 {
     position: absolute;
     left: 70px;
-    top: 221%;
+    top: 1858px;
     color: white;
 }
 
@@ -216,13 +214,13 @@ scroll-page {
     position: absolute;
     width: 300px;
     left: 380px;
-    top: 210%;
+    top: 1766px;
 }
 
 #titrel2 {
     position: absolute;
     left: 450px;
-    top: 221%;
+    top: 1858px;
     color: white;
 }
 
@@ -230,13 +228,13 @@ scroll-page {
     position: absolute;
     width: 300px;
     left: 730px;
-    top: 210%;
+    top: 1766px;
 }
 
 #titrel3 {
     position: absolute;
     left: 790px;
-    top: 221%;
+    top: 1858px;
     color: white;
 }
 
@@ -244,13 +242,13 @@ scroll-page {
     position: absolute;
     width: 370px;
     left: 1080px;
-    top: 209.5%;
+    top: 1766px;
 }
 
 #titrel4 {
     position: absolute;
     left: 1140px;
-    top: 221%;
+    top: 1858px;
     color: white;
 }
 
@@ -265,22 +263,22 @@ scroll-page {
     position: absolute;
     color: white;
     left: 530px;
-    top: 239%;
+    top: 2000px;
 }
 
 
 #barreTitreCardiaque {
     position: absolute;
     width: 100%;
-    height: 5%;
-    top: 250%;
+    height: 40px;
+    top: 2100px;
     background-color: dimgray;
     opacity: 0.5;
 }
 
 #titreFreqCardiaque {
     position: absolute;
-    top: 251%;
+    top: 2110px;
     left: 30px;
     color: white;
     text-decoration: underline;
@@ -289,15 +287,15 @@ scroll-page {
 #barreTitreTonalite {
     position: absolute;
     width: 100%;
-    height: 5%;
-    top: 285%;
+    height: 40px;
+    top: 2396px;
     background-color: dimgray;
     opacity: 0.5;
 }
 
 #titreTonalite {
     position: absolute;
-    top: 286%;
+    top: 2406px;
     left: 30px;
     color: white;
     text-decoration: underline;
@@ -306,15 +304,15 @@ scroll-page {
 #barreTitreTemp {
     position: absolute;
     width: 100%;
-    height: 5%;
-    top: 325%;
+    height: 40px;
+    top: 2722px;
     background-color: dimgray;
     opacity: 0.5;
 }
 
 #titreTemperature {
     position: absolute;
-    top: 326%;
+    top: 2732px;
     left: 30px;
     color: white;
     text-decoration: underline;
@@ -323,15 +321,15 @@ scroll-page {
 #barreTitreStimulus {
     position: absolute;
     width: 100%;
-    height: 5%;
-    top: 362%;
+    height: 40px;
+    top: 3044px;
     background-color: dimgray;
     opacity: 0.5;
 }
 
 #titreStimuSonore {
     position: absolute;
-    top: 363%;
+    top: 3054px;
     left: 260px;
     color: white;
     text-decoration: underline;
@@ -340,16 +338,16 @@ scroll-page {
 #separateurStimu {
     position: absolute;
     left: 730px;
-    top: 363%;
+    top: 3054px;
     width: 3px;
-    height: 3%;
+    height: 20px;
     background-color: white;
 }
 
 #titreStimuVisu {
     position: absolute;
-    top: 363%;
-    right: 240px;
+    top: 3052px;
+    left: 920px;
     color: white;
     text-decoration: underline;
 }
@@ -359,14 +357,14 @@ scroll-page {
     position: absolute;
     width: 340px;
     left: 30px;
-    top: 258%;
+    top: 2169px;
 }
 
 #imageTonalite {
     position: absolute;
     width: 340px;
     left: 30px;
-    top: 293%;
+    top: 2464px;
     border-radius: 13px;
 }
 
@@ -375,7 +373,7 @@ scroll-page {
     width: 320px;
     height: 210px;
     left: 30px;
-    top: 333%;
+    top: 2800px;
     border-radius: 13px;
 }
 
@@ -383,170 +381,142 @@ scroll-page {
     position: absolute;
     width: 320px;
     left: 220px;
-    top: 370%;
+    top: 3111px;
     border-radius: 13px;
 }
 
 #imageVisu {
     position: absolute;
     width: 320px;
-    right: 200px;
-    top: 370%;
+    left: 870px;
+    top: 3111px;
     border-radius: 13px;
 }
 
 
 #paraCardiaque {
     position: absolute;
-    top: 258%;
+    top: 2169px;
     left: 420px;
     color: white;
 }
 
 #paraTonalite {
     position: absolute;
-    top: 295%;
+    top: 2480px;
     left: 420px;
     color: white;
 }
 
 #paraTemp {
     position: absolute;
-    top: 334%;
+    top: 2808px;
     left: 420px;
     color: white;
 }
 
 #paraSon {
+    width: 400px;
     position: absolute;
-    top: 396%;
-    left: 90px;
+    text-align: center;
+    top: 3330px;
+    left: 170px;
     color: white;
 }
 
 #paraVisu {
+    width: 400px;
+    text-align: center;
     position: absolute;
-    top: 396%;
-    right: 90px;
+    top: 3330px;
+    left: 820px;
     color: white;
 }
 
 
-#boutonCardiaque {
+
+#boutonCardiaque:hover,#boutonTonalite:hover,#boutonTemp:hover,#boutonSon:hover, #boutonVisu:hover  {
+    border: 3px solid;
+}
+
+#boutonTonalite, #boutonTemp, #boutonSon, #boutonVisu, #boutonCardiaque{
     position: absolute;
-    width: 17%;
-    height: 22px;
-    top: 266%;
-    left: 1150px;
     color: red;
     border: 2px solid;
     text-decoration: none;
+    text-align: center;
+    width:  150px;
+    height: 25px;
 }
 
-#boutonCardiaque:hover {
-    border: 3px solid;
+#boutonCardiaque {
+    top: 2320px;
+    left: 1150px;
 }
 
 #boutonTonalite {
-    position: absolute;
-    width: 17%;
-    height: 22px;
-    top: 303%;
+    top: 2650px;
     left: 1150px;
-    color: red;
-    border: 2px solid;
-    text-decoration: none;
-}
-
-#boutonTonalite:hover {
-    border: 3px solid;
 }
 
 #boutonTemp {
-    position: absolute;
-    width: 17%;
-    height: 22px;
-    top: 342%;
+    top: 2980px;
     left: 1150px;
-    color: red;
-    border: 2px solid;
-    text-decoration: none;
 }
 
-#boutonTemp:hover {
-    border: 3px solid;
-}
 
 #boutonSon {
-    position: absolute;
-    width: 17%;
-    height: 22px;
-    top: 412%;
-    left: 255px;
-    color: red;
-    border: 2px solid;
-    text-decoration: none;
+    top: 3464px;
+    left: 290px;
 }
 
-#boutonSon:hover {
-    border: 3px solid;
-}
 
 #boutonVisu {
-    position: absolute;
-    width: 17%;
-    height: 22px;
-    top: 412%;
-    right: 220px;
-    color: red;
-    border: 2px solid;
-    text-decoration: none;
-}
-
-#boutonVisu:hover {
-    border: 3px solid;
+    top: 3464px;
+    left: 945px;
 }
 
 
 .footer {
+    position: absolute;
     width: 100%;
-    height: 10%;
+    height: 100px;
     background-color: #A6ADB4;
 }
 
 #Infinite_Measures {
     position: absolute;
     width: 65px;
-    top: 428%;
-    left: 28%;
+    top: 20px;
+    left: 400px;
 }
 
 #Focus {
     position: absolute;
     width: 90px;
-    top: 428.5%;
-    left: 36%;
+    top: 20px;
+    left: 550px;
 }
 
 #footerAccueil {
     position: absolute;
-    top: 431%;
-    right: 28%;
+    top: 37px;
+    left: 1100px;
     color: white;
 }
 
 #mention_legales {
     position: absolute;
-    top: 431%;
-    left: 45%;
+    top: 37px;
+    left: 700px;
     color: white;
     text-decoration: none;
 }
 
 #mail {
     position: absolute;
-    top: 431%;
-    right: 34.5%;
+    top: 37px;
+    left: 860px;
     color: white;
     text-decoration: none;
 }

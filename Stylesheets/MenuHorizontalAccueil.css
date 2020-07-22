@@ -2,7 +2,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 5%;
+    height: 40px;
     background-color: rgba(38, 38, 38, 5.3);
     opacity: 0.8;
     z-index: 300;
@@ -16,7 +16,7 @@ nav ul {
     top: 0;
     left: 520px;
     width: 100%;
-    height: 6%;
+    height: 10px;
     list-style-type: none;
 }
 
@@ -52,8 +52,8 @@ nav li a:hover {
 .langues .enFrancais {
     position: absolute;
     padding: 0;
-    top: 27%;
-    right: 1.5%;
+    top: 10px;
+    right: 30px;
     border: none;
     background-color: inherit;
 }
@@ -61,8 +61,8 @@ nav li a:hover {
 .langues-contenu {
     position: absolute;
     display: none;
-    right: 1%;
-    top: 90%;
+    top: 35px;
+    right: 20px;
     background-color: rgba(38, 38, 38, 5.3);
     min-width: 40px;
     z-index: 10;

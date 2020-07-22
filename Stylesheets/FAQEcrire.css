@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'SourceSansProBold';
+    src: url('../Police/SourceSansPro-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url('../Police/SourceSansPro-Regular.ttf') format("truetype");
+}
+
+* {
+    font-family: SourceSansProRegular, serif;
+    margin: 0;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.gauche {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.droite {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+#retourProfil{
+    font-family: SourceSansProBold, sans-serif;
+    position: absolute;
+    top: 30px;
+    right: 550px;
+    color: #43425D;
+    font-size: 20px;
+}
+
+#maisonAccueil {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 2.5%;
+    height: 5%;
+}
+
+#GrandTitre {
+    font-family: SourceSansProBold, sans-serif;
+    font-size: 40px;
+    color: #43425D;
+    letter-spacing: 10px;
+    padding-top: 100px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+#SousTitre {
+    font-size: 20px;
+    font-weight: normal;
+    color: #DCDCDC;
+    padding-top: 5px;
+    padding-left: 28px;
+    text-align: center;
+}
+
+.ChampsDeFAQ {
+    width: 400px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+
+.Barre {
+    position: absolute;
+    height: 1px;
+    width: 30%;
+    background: #c7c7c7;
+}
+
+#barre1 {
+    top: 375px;
+}
+
+#barre2 {
+    top: 450px;
+}
+
+#titreQuestion {
+    margin-top: 50px;
+}
+
+#contenuQuestion {
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+input[type=text] {
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+
+
+button[type=submit] {
+    cursor: pointer;
+}
+
+
+#boutonEnvoyerQuestion {
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 3px;
+    background-color: #43425D;
+    color: white;
+    border: 3px solid #43425D;
+}
+
+#boutonEnvoyerQuestion:hover {
+    padding: 11px 41px;
+}
+
+#succes {
+    position: absolute;
+    font-size: 18px;
+    font-weight: normal;
+    color: #03c700;
+    top: 240px;
+    left: 1000px;
+    text-align: center;
+}
+
+#succes2 {
+    position: absolute;
+    font-size: 18px;
+    font-weight: normal;
+    color: #03c700;
+    top: 260px;
+    left: 820px;
+}
+
+
+

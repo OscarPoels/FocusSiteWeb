@@ -2,36 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12663f2a-3e5f-430c-95d6-f9106028f138" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Stylesheets/ContactAdmin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stylesheets/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stylesheets/infoProfil.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/ContactAdmin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/PasserUnTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/infoProfil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stylesheets/Capteurs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stylesheets/FAQ.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stylesheets/FAQConsulter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stylesheets/FAQEcrire.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stylesheets/ProfilAdminEtGestio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stylesheets/SyntheseResultat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avatars/42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controleurs/accueil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controleurs/administrateur.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controleurs/gestionnaire.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/FqJNHFrY1MX_z-9LSCE1cHcilAnwrNs67xIPh2lorVg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/courbeCardiaque.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/courbeTemp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/croix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/jaugeOK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/jaugeSup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/microElec.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ressemblance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ressemblance100%.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sonLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/valide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modele/ajoutQuestionFAQ.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modele/gestionFAQValidation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modele/repondreQuestion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modele/suppQuestionFAQ.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modele/suppUtilisateur.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/AfficherTestUtilisateur.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/Cardiaque.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/FAQ.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/FAQConsulter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/FAQEcrire.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/ProfilGestio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/SyntheseResultat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/sonore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/temperature.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/tonalite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/visuel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/Acceuil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConditionsUtilisations.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/ConditionsUtilisations.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/Connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GestionFAQ.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/GestionFAQ.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GestionUtilisateurs.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/GestionUtilisateurs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/Inscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MdpOublie.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/MdpOublie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuHorizontalAccueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/MenuHorizontalAccueil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuVerticalProfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/MenuVerticalProfil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MesTests.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/MesTests.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PasserUnTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/controleurs/utilisateur.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfilAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/ProfilAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfilUtilisateur.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/ProfilUtilisateur.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stylesheets/Connexion.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stylesheets/Connexion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stylesheets/ProfilUtilisateur.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stylesheets/ProfilUtilisateur.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stylesheets/modificationProfilUtilisateur.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stylesheets/modificationProfilUtilisateur.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/db.co.php" beforeDir="false" afterPath="$PROJECT_DIR$/modele/db.co.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/db.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/modele/db.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/db.modification.php" beforeDir="false" afterPath="$PROJECT_DIR$/modele/db.modification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/deconnexionUtilisateur.php" beforeDir="false" afterPath="$PROJECT_DIR$/modele/deconnexionUtilisateur.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modificationProfilUtilisateur.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/modificationProfilUtilisateur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stylesheets/Accueil.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stylesheets/Accueil.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stylesheets/GestionFAQ.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stylesheets/GestionFAQ.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stylesheets/GestionUtilisateurs.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stylesheets/GestionUtilisateurs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stylesheets/MenuHorizontalAccueil.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stylesheets/MenuHorizontalAccueil.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stylesheets/MesTests.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stylesheets/MesTests.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stylesheets/ProfilAdmin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stylesheets/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stylesheets/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controleurs/utilisateur.php" beforeDir="false" afterPath="$PROJECT_DIR$/controleurs/utilisateur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modele/db.co.php" beforeDir="false" afterPath="$PROJECT_DIR$/modele/db.co.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modele/db.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/modele/db.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modele/db.modification.php" beforeDir="false" afterPath="$PROJECT_DIR$/modele/db.modification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modele/deconnexionUtilisateur.php" beforeDir="false" afterPath="$PROJECT_DIR$/modele/deconnexionUtilisateur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/Acceuil.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/Accueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/ConditionsUtilisations.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/ConditionsUtilisation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/Connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/Connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/ContactAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/ContactAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/GestionFAQ.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/GestionFAQ.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/GestionUtilisateurs.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/GestionUtilisateurs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/Inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/Inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/MdpOublie.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/MdpOublie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/MenuHorizontalAccueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/MenuHorizontalAccueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/MenuVerticalProfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/MenuVerticalProfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/MesTests.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/MesTests.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/ProfilAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/ProfilAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/ProfilUtilisateur.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/ProfilUtilisateur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/infoProfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/infoProfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/modificationProfilUtilisateur.php" beforeDir="false" afterPath="$PROJECT_DIR$/vue/modificationProfilUtilisateur.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,14 +161,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\FocusWeb\vue" />
+      <recent name="D:\wamp\www\FocusWeb\images" />
+      <recent name="D:\wamp\www\FocusWeb\Stylesheets" />
+      <recent name="D:\wamp\www\FocusWeb\modele" />
       <recent name="C:\Users\opoel\PhpstormProjects\untitled" />
-      <recent name="C:\Users\opoel\PhpstormProjects\untitled\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\wamp\www\FocusWeb\vue" />
@@ -200,6 +241,13 @@
       <workItem from="1589839473624" duration="4265000" />
       <workItem from="1590320249893" duration="4620000" />
       <workItem from="1590876328150" duration="3632000" />
+      <workItem from="1590934315160" duration="22206000" />
+      <workItem from="1591179234721" duration="18729000" />
+      <workItem from="1591201233349" duration="13427000" />
+      <workItem from="1591219433131" duration="45000" />
+      <workItem from="1591275717607" duration="1185000" />
+      <workItem from="1592326202262" duration="44000" />
+      <workItem from="1592326341319" duration="682000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout page traitement php">
       <created>1583143240339</created>
@@ -292,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588589099790</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Mise a jour importante">
+      <created>1590934545238</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1590934545238</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,17 +431,14 @@
     <MESSAGE value="Capteur en dynamique" />
     <MESSAGE value="Nouvelle mis a jour" />
     <MESSAGE value="Ajout fichiers non commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout fichiers non commit" />
+    <MESSAGE value="Mise a jour importante" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise a jour importante" />
   </component>
   <component name="WindowStateProjectService">
     <state x="343" y="140" key="#Notifications" timestamp="1587083909419">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="343" y="140" key="#Notifications/0.0.1500.960@0.0.1500.960" timestamp="1587083909419" />
-    <state x="457" y="72" key="#PHP" timestamp="1583745058002">
-      <screen x="0" y="0" width="1500" height="960" />
-    </state>
-    <state x="457" y="72" key="#PHP/0.0.1500.960@0.0.1500.960" timestamp="1583745058002" />
     <state x="343" y="140" key="#SQL_Dialects" timestamp="1587137637718">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -395,18 +447,14 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="343" y="140" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1587083512564" />
-    <state x="471" y="284" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582636690138">
-      <screen x="0" y="0" width="1500" height="960" />
-    </state>
-    <state x="471" y="284" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1500.960@0.0.1500.960" timestamp="1582636690138" />
     <state x="481" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588418068106">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="481" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960@0.0.1500.960" timestamp="1588418068106" />
-    <state x="372" y="53" key="CommitChangelistDialog2" timestamp="1588589099087">
+    <state x="372" y="53" key="CommitChangelistDialog2" timestamp="1590934544001">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="372" y="53" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1588589099087" />
+    <state x="372" y="53" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1590934544001" />
     <state width="976" height="466" key="DebuggerActiveHint" timestamp="1588443234500">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -415,14 +463,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="93" y="93" width="1313" height="773" key="DiffContextDialog/0.0.1500.960@0.0.1500.960" timestamp="1587373357591" />
-    <state x="531" y="223" key="FileChooserDialogImpl" timestamp="1588590343980">
+    <state x="531" y="223" key="FileChooserDialogImpl" timestamp="1591014301113">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="531" y="223" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1588590343980" />
-    <state x="584" y="397" width="355" height="164" key="Github.CreateGistDialog" timestamp="1582636626519">
-      <screen x="0" y="0" width="1500" height="960" />
-    </state>
-    <state x="584" y="397" width="355" height="164" key="Github.CreateGistDialog/0.0.1500.960@0.0.1500.960" timestamp="1582636626519" />
+    <state x="531" y="223" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1591014301113" />
     <state width="1458" height="316" key="GridCell.Tab.0.bottom" timestamp="1588450473808">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -475,30 +519,30 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="579" y="296" key="NewPhpClassDialog/0.0.1500.960@0.0.1500.960" timestamp="1588687003108" />
-    <state x="0" y="811" key="NewPhpFileDialog" timestamp="1590567782399">
+    <state x="0" y="811" key="NewPhpFileDialog" timestamp="1591216530724">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="0" y="811" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1590567782399" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1588689757907">
+    <state x="0" y="811" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1591216530724" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1591019726816">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1500.960@0.0.1500.960" timestamp="1588689757907" />
-    <state x="343" y="214" key="Vcs.Push.Dialog.v2" timestamp="1588589109833">
+    <state width="498" height="446" key="SwitcherDM/0.0.1500.960@0.0.1500.960" timestamp="1591019726816" />
+    <state x="343" y="214" key="Vcs.Push.Dialog.v2" timestamp="1595442985681">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="214" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1588589109833" />
+    <state x="343" y="214" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1595442985681" />
     <state x="93" y="93" width="1313" height="773" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1588588032363">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="93" y="93" width="1313" height="773" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1500.960@0.0.1500.960" timestamp="1588588032363" />
-    <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1590934316489">
+    <state x="451" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1595442870106">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1590934316489" />
-    <state x="443" y="77" width="613" height="804" key="find.popup" timestamp="1588781963533">
+    <state x="451" y="306" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1595442870106" />
+    <state x="443" y="77" width="613" height="804" key="find.popup" timestamp="1591219451746">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="443" y="77" width="613" height="804" key="find.popup/0.0.1500.960@0.0.1500.960" timestamp="1588781963533" />
+    <state x="443" y="77" width="613" height="804" key="find.popup/0.0.1500.960@0.0.1500.960" timestamp="1591219451746" />
     <state x="551" y="273" key="git4idea.merge.GitMergeDialog" timestamp="1588587789306">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -511,9 +555,9 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="415" y="230" key="run.anything.popup/0.0.1500.960@0.0.1500.960" timestamp="1588491376949" />
-    <state x="418" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1588689162777">
+    <state x="420" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591216855860">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="418" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1588689162777" />
+    <state x="420" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1591216855860" />
   </component>
 </project>

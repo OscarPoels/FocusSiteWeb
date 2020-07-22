@@ -19,9 +19,10 @@ session_start();
 $db = new PDO('mysql:host=localhost;dbname=focus', 'root', '');
 
 include('header.php');
-include('infoProfil.php');
-include('MenuVerticalProfil.php');
-
+if(!isset($_SESSION['idGestio'])) {
+    include('infoProfil.php');
+    include('MenuVerticalProfil.php');
+}
 ?>
 
 <div id="nomProfil"></div>
@@ -39,7 +40,13 @@ if (isset($_GET['mail'])) {
 }
 ?>
 
-<form method="post" name="myForm" action="../controleurs/utilisateur.php?vue=ContactAdmin"
+<form method="post" name="myForm" <?php
+if(!isset($_SESSION['idGestio'])) {
+echo 'action="../controleurs/utilisateur.php?vue=ContactAdmin"';
+} else {
+    echo 'action="../controleurs/gestionnaire.php?vue=ContactAdmin"';
+}
+?>
       id="fondInfo"
       enctype="multipart/form-data">
     <div class="ChampsDeModification">

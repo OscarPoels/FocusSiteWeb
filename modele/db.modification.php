@@ -3,6 +3,7 @@ function modification($id, $prenom, $nom, $mail, $newMdp)
 {
     $db = new PDO('mysql:host=localhost;dbname=focus', 'root', '');
     if (!empty($newMdp)) {
+        $newMdp = password_hash($newMdp, PASSWORD_DEFAULT);
         $sql = "UPDATE utilisateur SET mdp = '$newMdp'WHERE id = '$id'";
         $req = $db->prepare($sql);
         $req->execute();

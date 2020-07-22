@@ -12,6 +12,7 @@
 
 * {
     font-family: SourceSansProRegular, serif;
+    margin: 0;
 }
 
 .barreHeader {
@@ -36,11 +37,11 @@
 
 
 #titreProfil {
-    position: absolute;
     color: #43425D;
     font-size: 45px;
     top: 8px;
     left: 38%;
+    text-align: center;
 }
 
 #deconnexion {

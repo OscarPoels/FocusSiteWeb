@@ -1,0 +1,111 @@
+body {
+    background: #F0F0F7;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url('../Police/SourceSansPro-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'SourceSansProBold';
+    src: url('../Police/SourceSansPro-Bold.ttf') format("truetype");
+}
+
+
+* {
+    font-family: SourceSansProRegular, serif;
+}
+
+#contourPhoto {
+    position: absolute;
+    top: 230px;
+    left: 200px;
+    background: grey;
+    opacity: 0.5;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+#photoProfil {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 85%;
+    height: 85%;
+    color: black;
+}
+
+
+#infoProfil {
+    position: absolute;
+    width: 600px;
+    height: 60px;
+    background: #43425D;
+    top: 625px;
+    left: 105px;
+    text-align: center;
+}
+
+.info {
+    display: inline-flex;
+}
+
+#prenomAdmin {
+    color: white;
+    margin-top: 13px;
+    font-size: 25px;
+}
+
+#separateur {
+    color: white;
+    position: relative;
+    left: 40px;
+}
+
+#posteAdmin {
+    color: white;
+    margin-top: 13px;
+    margin-left: 75px;
+    font-size: 25px;
+}
+
+
+.optionAdmin {
+    position: absolute;
+    top: 160px;
+    left: 805px;
+    background: white;
+    width: 500px;
+    height: 580px;
+    box-shadow: inset 0 0 0 4px #A6ADB4;
+}
+
+
+.bouton {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #43425D;
+    color: white;
+    border: 3px solid #43425D;
+    font-size: 13px;
+    transition-duration: 3s;
+    transition: all 0.7s ease;
+}
+
+.bouton:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 0 60px grey;
+}

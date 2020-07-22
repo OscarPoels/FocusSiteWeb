@@ -26,36 +26,73 @@
 session_start();
 $db = new PDO('mysql:host=localhost;dbname=focus', 'root', '');
 
-if (isset($_GET['modification'])) {
-    if ($_GET['modification'] == 'OK') {
-        echo "<div id='successModif' >Vos modifications ont bien été prises en compte </div>";
-    }
+switch ($_SESSION['langue']) {
+    case 'francais':
+        if (isset($_GET['modification'])) {
+            if ($_GET['modification'] == 'OK') {
+                echo "<div id='successModif' >Vos modifications ont bien été prises en compte </div>";
+            }
+        }
+        if (isset($_GET['mdp'])) {
+            if ($_GET['mdp'] == 'false') {
+                echo "<div id='failed' >Mot de passe incorrect</div>";
+            }
+        }
+        if (isset($_GET['erreur'])) {
+            if ($_GET['erreur'] == 'true') {
+                echo "<div id='failed' >Une erreur s'est produite, veuillez contacter un administrateur</div>";
+            }
+        }
+        if (isset($_GET['photo'])) {
+            switch ($_GET['photo']) {
+                case 'failedImport':
+                    echo "<div id='failedImport' >Une erreur s'est produite lors de l'importation</div>";
+                    break;
+                case 'failedFormat':
+                    echo "<div id='failedFormat' >Votre photo doit être au format : jpg, jpeg, gif ou png</div>";
+                    break;
+                case 'failedSize':
+                    echo "<div id='failedSize' >Votre photo ne doit pas dépasser 2 MO</div>";
+                    break;
+                default:
+                    break;
+            }
+        }
+        break;
+    case 'anglais':
+        if (isset($_GET['modification'])) {
+            if ($_GET['modification'] == 'OK') {
+                echo "<div id='successModif' >Your changes have been saved successfully</div>";
+            }
+        }
+        if (isset($_GET['mdp'])) {
+            if ($_GET['mdp'] == 'false') {
+                echo "<div id='failed' >Incorrect password</div>";
+            }
+        }
+        if (isset($_GET['erreur'])) {
+            if ($_GET['erreur'] == 'true') {
+                echo "<div id='failed' >An error occured, please contact an admin</div>";
+            }
+        }
+        if (isset($_GET['photo'])) {
+            switch ($_GET['photo']) {
+                case 'failedImport':
+                    echo "<div id='failedImport' >An error occurred during import</div>";
+                    break;
+                case 'failedFormat':
+                    echo "<div id='failedFormat' >Your photo must be in the format: jpg, jpeg, gif or png</div>";
+                    break;
+                case 'failedSize':
+                    echo "<div id='failedSize' >Your photo should not exceed 2 MB</div>";
+                    break;
+                default:
+                    break;
+            }
+        }
+        break;
 }
-if (isset($_GET['mdp'])) {
-    if ($_GET['mdp'] == 'false') {
-        echo "<div id='failed' >Mot de passe incorrect</div>";
-    }
-}
-if (isset($_GET['erreur'])) {
-    if ($_GET['erreur'] == 'true') {
-        echo "<div id='failed' >Une erreur s'est produite, veuillez contacter un administrateur</div>";
-    }
-}
-if (isset($_GET['photo'])) {
-    switch ($_GET['photo']) {
-        case 'failedImport':
-            echo "<div id='failedImport' >Une erreur s'est produite lors de l'importation</div>";
-            break;
-        case 'failedFormat':
-            echo "<div id='failedFormat' >Votre photo doit être au format : jpg, jpeg, gif ou png</div>";
-            break;
-        case 'failedSize':
-            echo "<div id='failedSize' >Votre photo ne doit pas dépasser 2 MO</div>";
-            break;
-        default:
-            break;
-    }
-}
+
 
 include('header.php');
 include('infoProfil.php');
@@ -72,10 +109,20 @@ include('MenuVerticalProfil.php')
       enctype="multipart/form-data">
     <div class="ChampsDeModification">
         <div class="Box" id="Box1">
-            <input id="FormPrenom" type="text" class="MoitierInput" placeholder="Prenom"
+            <input id="FormPrenom" type="text" class="MoitierInput" placeholder="<?php
+            if ($_SESSION['langue'] == 'francais'){
+                echo 'Prenom';
+            } else if ($_SESSION['langue'] == 'anglais'){
+                echo 'First name';
+            } ?>"
                    value="<?php echo $_SESSION['prenom']; ?>" size="21"
                    name="prenom">
-            <input id="FormNom" type="text" class="MoitierInput" placeholder="Nom"
+            <input id="FormNom" type="text" class="MoitierInput" placeholder="<?php
+            if ($_SESSION['langue'] == 'francais'){
+                echo 'Nom';
+            } else if ($_SESSION['langue'] == 'anglais'){
+                echo 'Name';
+            } ?>"
                    value="<?php echo $_SESSION['nom']; ?>" size="21"
                    name="nom">
         </div>
@@ -84,7 +131,7 @@ include('MenuVerticalProfil.php')
             <div class="PetiteBarre" id="PetiteBarreDroite" alt="Barre design"></div>
         </div>
         <div class="Box" id="Box3">
-            <input id="Email" type="email" placeholder="Email" value="<?php echo $_SESSION['mail']; ?>"
+            <input id="Email" type="email" placeholder="E-mail" value="<?php echo $_SESSION['mail']; ?>"
                    size="50" name="mail">
         </div>
         <div class="Box" id="Box4">
@@ -92,14 +139,24 @@ include('MenuVerticalProfil.php')
         </div>
         <div class="Box" id="Box5">
             <input id="MdpActuel" name="mdp" type="password" minlength="6" maxlength="24"
-                   placeholder="Mot de passe actuel" size="50" required>
+                   placeholder="<?php
+                   if ($_SESSION['langue'] == 'francais'){
+                       echo 'Mot de passe actuel';
+                   } else if ($_SESSION['langue'] == 'anglais'){
+                       echo 'Password';
+                   } ?>" size="50" required>
         </div>
         <div class="Box" id="Box6">
             <div class="Barre" alt="Barre design"></div>
         </div>
         <div class="Box" id="Box7">
             <input id="NewMdp" name="newMdp" type="password" minlength="6" maxlength="24"
-                   placeholder="Nouveau mot de passe"
+                   placeholder="<?php
+                   if ($_SESSION['langue'] == 'francais'){
+                       echo 'Nouveau mot de passe';
+                   } else if ($_SESSION['langue'] == 'anglais'){
+                       echo 'New password';
+                   } ?>"
                    size="50">
         </div>
         <div class="Box" id="Box8">
@@ -107,18 +164,33 @@ include('MenuVerticalProfil.php')
         </div>
         <div class="Box" id="Box9">
             <input id="ConfirmerNewMdp" name="confirmNewMdp" type="password" minlength="6" maxlength="24"
-                   placeholder="Confirmer nouveau mot de passe" size="50">
+                   placeholder="<?php
+                   if ($_SESSION['langue'] == 'francais'){
+                       echo 'Confirmer nouveau mot de passe';
+                   } else if ($_SESSION['langue'] == 'anglais'){
+                       echo 'Confirm password';
+                   } ?>" size="50">
         </div>
         <div class="Box" id="Box10">
             <div class="Barre" alt="Barre design"></div>
         </div>
         <div class="Box" id="Box11">
-            <label>Photo de Profil : &emsp;</label>
+            <label><?php
+                if ($_SESSION['langue'] == 'francais'){
+                    echo 'Photo de profil :';
+                } else if ($_SESSION['langue'] == 'anglais'){
+                    echo 'Profil picture :';
+                } ?></label>
             <input id="avatar" name="avatar" type="file">
         </div>
     </div>
     <button type="submit" id="BoutonEnregistrerModif" name="submit">
-        Enregistrer
+        <?php
+        if ($_SESSION['langue'] == 'francais'){
+            echo 'Enregistrer';
+        } else if ($_SESSION['langue'] == 'anglais'){
+            echo 'Save';
+        } ?>
     </button>
 </form>
 

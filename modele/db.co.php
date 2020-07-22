@@ -3,14 +3,28 @@
 function connexion($mail, $mdp){
     $db = new PDO('mysql:host=localhost;dbname=focus', 'root', '');
 
-    $sql = "SELECT * FROM utilisateur WHERE mail = '$mail'";
-    $res = $db->prepare($sql);
-    $res->execute();
-    $resultat = $res->fetch();
+    if($mail == 'marceau.gerardin@focus.fr'
+        || $mail == 'oscar.poels@focus.fr'
+            || $mail == 'gabriel.ferrier@focus.fr'){
+        $sql = "SELECT * FROM administrateur WHERE mail = '$mail'";
+        $res = $db->prepare($sql);
+        $res->execute();
+        $resultat = $res->fetch();
 
-    $isPasswordCorrect = password_verify($mdp, $resultat['mdp']);
+        $isPasswordCorrect = password_verify($mdp, $resultat['mdp']);
 
-    return array($resultat, $isPasswordCorrect);
+        return array($resultat, $isPasswordCorrect);
+
+    }else{
+        $sql = "SELECT * FROM utilisateur WHERE mail = '$mail'";
+        $res = $db->prepare($sql);
+        $res->execute();
+        $resultat = $res->fetch();
+
+        $isPasswordCorrect = password_verify($mdp, $resultat['mdp']);
+
+        return array($resultat, $isPasswordCorrect);
+    }
 }
 
 function connexionModif($mdp){
@@ -28,6 +42,22 @@ function connexionModif($mdp){
 
     return array($resultat, $isPasswordCorrect);
 }
+
+function connexionGestio($mail, $mdp){
+    $db = new PDO('mysql:host=localhost;dbname=focus', 'root', '');
+
+    $sql = "SELECT * FROM gestionnaire WHERE mail = '$mail'";
+    $res = $db->prepare($sql);
+    $res->execute();
+    $resultat = $res->fetch();
+
+    $isPasswordCorrect = password_verify($mdp, $resultat['mdp']);
+
+    return array($resultat, $isPasswordCorrect);
+
+
+}
+
 
 
 
