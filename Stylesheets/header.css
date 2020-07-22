@@ -1,0 +1,82 @@
+
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url('../Police/SourceSansPro-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'SourceSansProBold';
+    src: url('../Police/SourceSansPro-Bold.ttf') format("truetype");
+}
+
+
+* {
+    font-family: SourceSansProRegular, serif;
+    margin: 0;
+}
+
+.barreHeader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    z-index: 100;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.19);
+}
+
+#logoDeco {
+    background: url(../images/deconnexion-logo-normal.png);
+    background-size: 15px 15px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 7px;
+    top: 11px;
+}
+
+
+#titreProfil {
+    color: #43425D;
+    font-size: 45px;
+    top: 8px;
+    left: 38%;
+    text-align: center;
+}
+
+#deconnexion {
+    color: #43425D;
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 32px;
+    border: none;
+    border-radius: 20px;
+    background: none;
+    box-shadow: inset 0 0 0 2px #43425D;
+    transition: all 0.25s ease;
+    transition-duration: 1s;
+}
+
+#deconnexion:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 0 60px rgb(229, 33, 60);
+}
+
+#deconnexion:hover p {
+    color: white;
+}
+
+
+#deconnexion:hover #logoDeco {
+    background-image: url(../images/deconnexion-logo.png);
+}
+
+#maisonAccueil {
+    position: absolute;
+    right: 1%;
+    top: 25px;
+    width: 20px;
+}

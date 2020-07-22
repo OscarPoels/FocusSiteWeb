@@ -1,0 +1,208 @@
+
+body {
+    background: #F0F0F7;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url('../Police/SourceSansPro-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'SourceSansProBold';
+    src: url('../Police/SourceSansPro-Bold.ttf') format("truetype");
+}
+
+
+* {
+    font-family: SourceSansProRegular, serif;
+}
+
+@media (max-width: 650px) {
+    #deconnexion {
+        left: 505px;
+    }
+
+    #maisonAccueil {
+        left: 620px;
+    }
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.imagesTests {
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    top: 150px;
+    left: 750px;
+    background-color: white;
+}
+
+
+.barreTest {
+    position: absolute;
+    padding: 5px;
+    border-radius: 7px;
+    margin-top: 25px;
+    border: 2px solid #43425D;
+}
+
+#barreTitreCardiaque, #barreTitreTonalite {
+    margin-left: 80px;
+}
+
+.imageTest {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 60px;
+    border-radius: 13px;
+}
+
+#barreTitreCardiaque {
+    width: 210px;
+    height: 25px;
+}
+
+#imageCardiaque, #imageTonalite {
+}
+
+#imageCardiaque {
+    width: 260px;
+}
+
+#imageCardiaque:hover {
+    width: 262px;
+}
+
+.titreTest {
+    color: #43425D;
+    text-align: center;
+    font-family: SourceSansProRegular, serif;
+}
+
+#barreTitreTonalite {
+    width: 230px;
+    height: 25px;
+    left: 300px;
+}
+
+
+#imageTonalite {
+    position: absolute;
+    width: 220px;
+    left: 335px;
+    border-radius: 13px;
+}
+
+#imageTonalite:hover {
+    width: 222px;
+}
+
+#barreTitreTemp {
+    width: 227px;
+    height: 25px;
+    margin-left: 75px;
+}
+
+#barreTitreTemp,#barreTitreStimulus{
+    margin-top: 300px;
+}
+
+#imageTemp, #imageVisu, #imageSon {
+    top: 270px;
+}
+
+#imageTemp {
+    position: absolute;
+    width: 208px;
+    left: 25px;
+}
+
+#imageTemp:hover {
+    width: 210px;
+}
+
+#barreTitreStimulus {
+    width: 227px;
+    height: 25px;
+    left: 380px;
+}
+
+
+#imageVisu {
+    width: 120px;
+    left: 310px;
+}
+
+#imageSon {
+    width: 140px;
+    left: 430px;
+
+}
+
+#imageVisu:hover {
+    width: 122px;
+}
+
+#imageSon:hover {
+    width: 142px;
+}
+
+#titreBienvenue {
+    position: absolute;
+    color: #43425D;
+    top: 100px;
+    left: 870px;
+    font-size: 31px;
+    font-family: SourceSansProBold, serif;
+}
+
+#barreBas {
+    position: fixed;
+    background: #43425D;
+    width: 100%;
+    height: 60px;
+    top: 800px;
+}
+
+#barreBas:hover {
+    height: 100%;
+}
+
+#HistoriqueTests {
+    position: fixed;
+    color: white;
+    bottom: 15px;
+    left: 45%;
+    font-size: 15px;
+    z-index: 101;
+}
+
+
+#flecheBas1 {
+    position: fixed;
+    bottom: 15px;
+    left: 65%;
+}
+
+#flecheBas2 {
+    position: fixed;
+    bottom: 15px;
+    left: 37%;
+}

@@ -1,0 +1,79 @@
+
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url('../Police/SourceSansPro-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'SourceSansProBold';
+    src: url('../Police/SourceSansPro-Bold.ttf') format("truetype");
+}
+
+
+* {
+    font-family: SourceSansProRegular, serif;
+}
+
+#photoProfil {
+    width: 100%;
+    height: 100%;
+}
+
+
+#titrePhotoProfil {
+    position: absolute;
+    color: white;
+    font-weight: normal;
+    top: 300px;
+    left: 500px;
+    font-size: 30px;
+}
+
+#contourPhoto {
+    top: 100px;
+    position: absolute;
+    background: grey;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.infoProfil {
+    position: absolute;
+    width: 200px;
+    height: 450px;
+    background: #43425D;
+    top: 150px;
+    left: 500px;
+    text-align: center;
+}
+
+.barre {
+    margin-top: 20px;
+    height: 1px;
+    background: white;
+    width: 150px;
+    opacity: 0.7;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.stats, .statsTexte {
+    margin-top: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.statsTexte {
+    font-size: 10px;
+}
+
+#dateInscription {
+    top: 270px;
+    left: 300px;
+    color: white;
+}
+
+#nbPoints {
+    color: #03c700;
+}

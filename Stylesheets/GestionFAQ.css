@@ -1,0 +1,248 @@
+body {
+    background: #F0F0F7;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url('../Police/SourceSansPro-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'SourceSansProBold';
+    src: url('../Police/SourceSansPro-Bold.ttf') format("truetype");
+}
+
+* {
+    font-family: SourceSansProRegular, serif;
+}
+
+
+#titre {
+    font-family: SourceSansProBold, sans-serif;
+    padding-top: 100px;
+    font-size: 30px;
+    color: #43425D;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+#sous_titre {
+    font-family: SourceSansProBold, sans-serif;
+    font-size: 15px;
+    color: #43425D;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+.barreRecherche {
+    position: absolute;
+    top: 180px;
+    left: 500px;
+}
+
+#boutonRechercher {
+    background-color: #43425D;
+    color: white;
+    border: 1px solid #43425D;
+}
+
+.barreRecherche2 {
+    position: absolute;
+    top: 180px;
+    left: 740px;
+}
+
+#boutonRechercher2 {
+    background-color: #43425D;
+    color: white;
+    border: 1px solid #43425D;
+}
+
+
+.supportClientGauche {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 700px;
+}
+
+.contourQuestion {
+    margin: 30px;
+    display: block;
+    width: 650px;
+    height: 400px;
+    background: white;
+    border: 3px solid #B5B5B5;
+    border-radius: 50px;
+}
+
+.supportClientDroite {
+    position: absolute;
+    top: 200px;
+    left: 750px;
+    width: 700px;
+}
+
+.photo {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-top: 14px;
+    margin-left: 15px;
+    border-radius: 40px;
+}
+
+#infoAuteurQuestion {
+    margin-top: 10px;
+    margin-left: 75px;
+    color: #43425D;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#etatQuestion {
+    position: absolute;
+    margin-top: 10px;
+    left: 550px;
+    color: #43425D;
+    font-weight: bold;
+}
+
+#validée, #nonValidée {
+    position: absolute;
+    left: 606px;
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+#date {
+    position: absolute;
+    margin-top: -15px;
+    left: 535px;
+    color: #43425D;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#questionTitre, #reponseTitre {
+    margin-top: 30px;
+    margin-left: 75px;
+    color: #43425D;
+    font-family: Georgia;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+
+#contenuQuestion, #contenuReponse {
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #43425D;
+    font-family: Georgia;
+    font-size: 15px;
+}
+
+#barreSeparatrice {
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: grey;
+    width: 550px;
+    height: 1px;
+}
+
+#boutonRepondreQuestion {
+    padding: 0;
+    position: absolute;
+    margin-top: 88px;
+    left: 100px;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #43425D;
+    border: none;
+    background: none;
+}
+
+#boutonRepondreQuestion:hover {
+    color: blue;
+}
+
+label {
+    position: absolute;
+    left: 240px;
+    color: #43425D;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+#boutonValidationOui, #boutonValidationNon {
+    position: absolute;
+    margin-top: 90px;
+    font-family: Georgia;
+    font-size: 16px;
+    color: #43425D;
+    border: none;
+    background: none;
+}
+#boutonValidationOui{
+    left: 350px;
+}
+
+#boutonValidationNon{
+    left: 400px;
+}
+#Validation{
+    position: absolute;
+    margin-top: 90px;
+    left: 220px;
+}
+
+#boutonValidationOui:hover {
+    color: #03c700;
+}
+
+#boutonValidationNon:hover, #boutonSuppFAQ:hover {
+    color: #c70700;
+}
+
+#boutonSuppFAQ {
+    position: absolute;
+    margin-top: 90px;
+    left: 460px;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #43425D;
+    border: none;
+    background: none;
+}
+
+
+button[type=submit] {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
